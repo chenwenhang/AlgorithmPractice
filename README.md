@@ -1,2 +1,2 @@
-# AlgorithmPractice-
-Algorithm practice 
+# AlgorithmPractice
+A project to record algorithm practice. 
