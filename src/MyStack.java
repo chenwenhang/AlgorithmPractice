@@ -18,6 +18,10 @@ public class MyStack {
     }
 
     public void push(int newNum) {
+//        stackMin的顶端一直存储最小元素， 如果当前
+//       元素小于最小元素，就把当前元素压到stackMin
+//       栈中，否则把stackMin栈顶元素再压进去一次
+//       这样弹出的时候两个栈都弹出
         if (this.stackMin.empty()) {
             this.stackData.push(newNum);
         } else if (newNum < this.getmin()) {
