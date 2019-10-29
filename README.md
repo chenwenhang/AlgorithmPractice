@@ -6,6 +6,7 @@ A project to record algorithm practice.
 ### Stack and Queue
 * [栈：实现返回最小元素的操作](./src/MyStack.java)
 * [两个栈构成一个队列](./src/TwoStackQueue.java)
+* [仅用递归函数和栈操作逆序一个栈](./src/ReverseStackByRecursion.java)
 
 ### Divide and Conquer
 * [循环移位](./src/CycleShift.py)
