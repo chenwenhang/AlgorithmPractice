@@ -9,6 +9,7 @@ A project to record algorithm practice.
 * [仅用递归函数和栈操作逆序一个栈](./src/ReverseStackByRecursion.java)
 * [猫狗队列](./src/DogCatQueue.java)
 * [用一个栈实现另一个栈的排序](./src/SortStackByStack.java)
+* [生成窗口最大值数组](./src/MaxWindow.java)
 
 ### Divide and Conquer
 * [循环移位](./src/CycleShift.py)
