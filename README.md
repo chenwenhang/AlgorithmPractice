@@ -16,10 +16,11 @@ A project to record algorithm practice.
 * [判断集合S中是否存在两个其和等于x的元素](./src/FindNumsEaualS.py)
 * [求逆序对](./src/Inversions.py)
 
-### Dynamic Programming
+### Recursion and Dynamic Programming
 * [01背包](./src/Bag01.java)
 * [01背包装满](./src/ProperBag.java)
 * [多重背包](./src/MultipleBag.java)
+* [加强版汉诺塔（递归解法）](./src/EnhancedHanNoi.java)
 
 
 
