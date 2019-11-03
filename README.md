@@ -21,6 +21,9 @@ A project to record algorithm practice.
 * [01背包装满](./src/ProperBag.java)
 * [多重背包](./src/MultipleBag.java)
 * [加强版汉诺塔（递归解法）](./src/EnhancedHanNoi.java)
+* [找一串数字的最大算式](./src/GetMaxEquation.java)
+* [最小化所有子序列中最大值的和](./src/MinMaxSum.java)
+* [对树着色问题](./src/ColorTheTree.java)
 
 
 
