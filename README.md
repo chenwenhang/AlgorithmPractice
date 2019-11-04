@@ -4,7 +4,7 @@ A project to record algorithm practice.
 ## Contents 
 
 ### Stack and Queue
-* [栈：实现返回最小元素的操作](./src/MyStack.java)
+* [栈中实现返回最小元素的操作](./src/MyStack.java)
 * [两个栈构成一个队列](./src/TwoStackQueue.java)
 * [仅用递归函数和栈操作逆序一个栈](./src/ReverseStackByRecursion.java)
 * [猫狗队列](./src/DogCatQueue.java)
@@ -24,6 +24,8 @@ A project to record algorithm practice.
 * [找一串数字的最大算式](./src/GetMaxEquation.java)
 * [最小化所有子序列中最大值的和](./src/MinMaxSum.java)
 * [对树着色问题](./src/ColorTheTree.java)
+* [最大化分词后词汇质量的和](./src/MaxWordSegmentation.java)
+* [带权活动选择问题](./src/MaxWeightActivity.java)
 
 
 
