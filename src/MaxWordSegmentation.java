@@ -22,11 +22,9 @@ public class MaxWordSegmentation {
         for (int i = 1; i <= n; i++)
             dp[i][i] = quality(i, i);
         // 开始dp
-        for (int i = 1; i <= n; i++) {
-            for (int j = i; j <= n; j++) {
-                for (int k = i; k < j; k++) {
-                    dp[i][j] = Math.max(dp[i][j], dp[i][k] + quality(k + 1, j));
-                }
+        for (int j = 1; j <= n; j++) {
+            for (int k = 1; k < j; k++) {
+                dp[1][j] = Math.max(dp[1][j], dp[1][k] + quality(k + 1, j));
             }
         }
         return dp[1][n];

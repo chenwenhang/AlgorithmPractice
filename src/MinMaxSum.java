@@ -14,6 +14,8 @@ public class MinMaxSum {
     static int getMinMaxSum(int[] a, int B) {
         int n = a.length;
         int[] num = new int[a.length + 1];
+        // 本题使用了二维数组，实际上没必要，一位数组即可，这里为了顺便看看任意一段的结果
+        // 定义二维数组便于输出任意一段的结果
         int[][] dp = new int[n + 1][n + 1];
         int[][] sum = new int[n + 1][n + 1]; // sum[i][j]存储num[i]到num[j]的和
         int[][] max = new int[n + 1][n + 1]; // max[i][j]存储num[i]到num[j]的最大值
@@ -36,6 +38,7 @@ public class MinMaxSum {
             }
         }
         // 开始dp
+        // 这里多了一层循环，可以删掉。相当于算出了任意一段的最小化所有子序列中最大值的和
         for (int i = 1; i <= n; i++) {
             for (int j = i; j <= n; j++) {
                 for (int k = i; k < j; k++) {
