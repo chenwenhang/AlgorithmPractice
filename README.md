@@ -2,6 +2,8 @@
 A project to record algorithm practice. 
 
 ## Contents 
+### ⭐ Notes ⭐
+* [二分查找笔记](./src/BinarySearch.md)
 
 ### Stack and Queue
 * [栈中实现返回最小元素的操作](./src/MyStack.java)
@@ -12,6 +14,9 @@ A project to record algorithm practice.
 * [生成窗口最大值数组](./src/MaxWindow.java)
 
 ### Divide and Conquer
+* [搜索插入位置](./src/SearchInsertPosition.java)
+* [二分查找](./src/BinarySearchExample.java)
+* [x的平方根](./src/SqrtOfX.java)
 * [循环移位](./src/CycleShift.py)
 * [判断集合S中是否存在两个其和等于x的元素](./src/FindNumsEaualS.py)
 * [求逆序对](./src/Inversions.py)
