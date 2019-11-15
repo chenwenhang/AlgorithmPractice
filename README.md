@@ -31,6 +31,7 @@ A project to record algorithm practice.
 * [对树着色问题](./src/ColorTheTree.java)
 * [最大化分词后词汇质量的和](./src/MaxWordSegmentation.java)
 * [带权活动选择问题](./src/MaxWeightActivity.java)
+* [最长回文子串](./src/LongestPalindromicSubstring.java)
 
 ### Greedy
 * [背包问题（贪心解法）](./src/GreedyBag.java)
