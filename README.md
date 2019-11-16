@@ -4,6 +4,8 @@ A project to record algorithm practice.
 ## Contents 
 ### ⭐ Notes ⭐
 * [二分查找笔记](./src/BinarySearch.md)
+* [递归和动态规划笔记](./src/RecursionAndDynamicProgramming.md)
+
 
 ### Stack and Queue
 * [栈中实现返回最小元素的操作](./src/MyStack.java)
