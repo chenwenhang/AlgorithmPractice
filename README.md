@@ -41,6 +41,8 @@ A project to record algorithm practice.
 ### Greedy
 * [背包问题（贪心解法）](./src/GreedyBag.java)
 * [最少圆覆盖最多点问题](./src/BoatCommunication.java)
+* [最小化工厂成本](./src/MinFactoryCost.java)
+* [直线上黑白点连线最短问题](./src/MinBlackWhiteLine.java)
 
 
 
