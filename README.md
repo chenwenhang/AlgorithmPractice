@@ -35,6 +35,8 @@ A project to record algorithm practice.
 * [最大化分词后词汇质量的和](./src/MaxWordSegmentation.java)
 * [带权活动选择问题](./src/MaxWeightActivity.java)
 * [最长回文子串](./src/LongestPalindromicSubstring.java)
+* [电话号码的字母组合](./src/LetterCombinations.java)
+* [删除链表的倒数第N个节点](./src/RemoveNthFromEnd.java)
 
 ### Greedy
 * [背包问题（贪心解法）](./src/GreedyBag.java)
