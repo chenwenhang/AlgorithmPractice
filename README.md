@@ -2,12 +2,21 @@
 A project to record algorithm practice. 
 
 ## Contents 
-### ⭐ Notes ⭐
+* [Notes](#Notes)
+* [Stack and Queue](#StackAndQueue)
+* [Divide and Conquer](#DivideAndConquer)
+* [Recursion and Dynamic Programming](#RecursionAndDynamicProgramming)
+* [Greedy](#Greedy)
+
+<span id="Notes"></span>
+## ⭐ Notes ⭐
+* [算法性能优化笔记](./src/PerformanceOptimization.md)
 * [二分查找笔记](./src/BinarySearch.md)
 * [递归和动态规划笔记](./src/RecursionAndDynamicProgramming.md)
+* [HashMap笔记](./src/HashMapNote.md)
 
-
-### Stack and Queue
+<span id="StackAndQueue"></span>
+## Stack and Queue
 * [栈中实现返回最小元素的操作](./src/MyStack.java)
 * [两个栈构成一个队列](./src/TwoStackQueue.java)
 * [仅用递归函数和栈操作逆序一个栈](./src/ReverseStackByRecursion.java)
@@ -15,7 +24,8 @@ A project to record algorithm practice.
 * [用一个栈实现另一个栈的排序](./src/SortStackByStack.java)
 * [生成窗口最大值数组](./src/MaxWindow.java)
 
-### Divide and Conquer
+<span id="DivideAndConquer"></span>
+## Divide and Conquer
 * [搜索插入位置](./src/SearchInsertPosition.java)
 * [二分查找](./src/BinarySearchExample.java)
 * [x的平方根](./src/SqrtOfX.java)
@@ -25,7 +35,8 @@ A project to record algorithm practice.
 * [找两个有序数组中位数](./src/FindMedianSortedArrays.java)
 * [搜索旋转排序数组](./src/SearchInRotatedSortedArray.java)
 
-### Recursion and Dynamic Programming
+<span id="RecursionAndDynamicProgramming"></span>
+## Recursion and Dynamic Programming
 * [01背包](./src/Bag01.java)
 * [01背包装满](./src/ProperBag.java)
 * [多重背包](./src/MultipleBag.java)
@@ -39,7 +50,8 @@ A project to record algorithm practice.
 * [电话号码的字母组合](./src/LetterCombinations.java)
 * [删除链表的倒数第N个节点](./src/RemoveNthFromEnd.java)
 
-### Greedy
+<span id="Greedy"></span>
+## Greedy
 * [背包问题（贪心解法）](./src/GreedyBag.java)
 * [最少圆覆盖最多点问题](./src/BoatCommunication.java)
 * [最小化工厂成本](./src/MinFactoryCost.java)
