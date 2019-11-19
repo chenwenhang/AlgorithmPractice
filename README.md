@@ -23,6 +23,7 @@ A project to record algorithm practice.
 * [判断集合S中是否存在两个其和等于x的元素](./src/FindNumsEaualS.py)
 * [求逆序对](./src/Inversions.py)
 * [找两个有序数组中位数](./src/FindMedianSortedArrays.java)
+* [搜索旋转排序数组](./src/SearchInRotatedSortedArray.java)
 
 ### Recursion and Dynamic Programming
 * [01背包](./src/Bag01.java)
