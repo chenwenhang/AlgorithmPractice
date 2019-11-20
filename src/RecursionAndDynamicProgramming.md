@@ -16,7 +16,7 @@ Node t1  = head.next;
 t1.next = head;
 ```
 如果难以一眼看出递推公式，可以**假设前面已经完成了递归调用，当前这一轮应该怎么处理使递归进行下去**。例如在“反转单链表”问题中，可以假设前面的结点都已经反转了，当前结点是最后一个，怎么处理才能把递归接上。
-<img style="margin: 0 auto;display: block" src="./img/RecursionAndDynamicProgramming-1.png">
+<img style="margin: 0 auto;display: block" src="./img/RecursionAndDynamicProgramming-1.webp">
 
 ### 优化
 1. 考虑是否**重复计算**。例如求阶乘，可以把每次求得的结果放在数组或者HashMap中

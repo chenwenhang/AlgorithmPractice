@@ -55,7 +55,7 @@ mid2 = left + (right - left + 1) // 2 = 3 + (4 - 3 + 1) // 2 = 3 + 1 = 4。
 > 既然是“夹逼”法，没有必要在每一轮循环开始前单独判断当前中位数是否是目标元素，因此分支数少了一支，代码执行效率更高。
 
 5. 根据分支逻辑选择中位数的类型，可能是左中位数，也可能是右位数，选择的标准是避免死循环
-![wrong-code](./img/binary-search-wrong-code.png)
+![wrong-code](./img/binary-search-wrong-code.webp)
 > 1. 如果分支的逻辑，在选择左边界的时候，**不能排除中位数，那么中位数就选“右中位数”**，只有这样区间才会收缩，否则进入死循环；
 > 2. 同理，如果分支的逻辑，在选择右边界的时候，**不能排除中位数，那么中位数就选“左中位数”**，只有这样区间才会收缩，否则进入死循环。
 
@@ -78,14 +78,10 @@ mid2 = left + (right - left + 1) // 2 = 3 + (4 - 3 + 1) // 2 = 3 + 1 = 4。
 
 ### 二分法模版
 1. 不能排除右边界时，选左中位数
-![binary-search-templete-1](./img/binary-search-templete-1.png)
+![binary-search-templete-1](./img/binary-search-templete-1.webp)
 
 2. 不能排除左边界时，选右中位数
-![binary-search-templete-2](./img/binary-search-templete-2.png)
-
-
-
-
+![binary-search-templete-2](./img/binary-search-templete-2.webp)
 
 ### 参考文献
 * [十分好用的二分查找法模板](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
