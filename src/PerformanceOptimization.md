@@ -11,9 +11,9 @@
 
 * 非线程安全
 
-> 【推荐】集合初始化时，指定集合初始值大小。
-> 说明：HashMap 使用 HashMap(int initialCapacity) 初始化
-> 正例：initialCapacity = (需要存储的元素个数 / 负载因子) + 1。
+> 【推荐】集合初始化时，指定集合初始值大小。  
+> 说明：HashMap 使用 HashMap(int initialCapacity) 初始化  
+> 正例：initialCapacity = (需要存储的元素个数 / 负载因子) + 1。  
 > 反例：HashMap 需要放置1024个元素，由于没有设置初始值大小，随着元素不断增加，容量七次被迫扩大，resize 需要重建哈希表，严重影响性能。
 > 
 > ——《阿里巴巴Java开发手册》
