@@ -232,7 +232,7 @@ static final int hash(Object key) {
                         do {
                             next = e.next;
                             // 根据算法　e.hash & oldCap 判断节点位置rehash　后是否发生改变
-                            //最高位==0，这是索引不变的链表。
+                            // 最高位==0，这是索引不变的链表。
                             if ((e.hash & oldCap) == 0) { 
                                 if (loTail == null)
                                     loHead = e;
@@ -249,7 +249,7 @@ static final int hash(Object key) {
                                 hiTail = e;
                             }
                         } while ((e = next) != null);
-                        if (loTail != null) {  // 原bucket位置的尾指针不为空(即还有node)  
+                        if (loTail != null) {   // 原bucket位置的尾指针不为空(即还有node)  
                             loTail.next = null; // 链表最后得有个null
                             newTab[j] = loHead; // 链表头指针放在新桶的相同下标(j)处
                         }
@@ -273,9 +273,13 @@ static final int hash(Object key) {
 因此，在扩充HashMap的时候，只需要看看原来的hash值新增的那个bit是1还是0就好了，是0的话索引没变，是1的话索引变成“原索引+oldCap”，下图为16扩充为32的resize示意图
 ![hash-process-2](./img/HashMap-process-2.webp)
 
-#### putVal操作的实现
+#### put操作的实现
 ```Java
-    // 实现put和相关方法。
+public V put(K key, V value) {
+    return putVal(hash(key), key, value, false, true);
+}
+
+// 实现put和相关方法。
 final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
                boolean evict) {
     Node<K,V>[] tab; Node<K,V> p; int n, i;
@@ -337,6 +341,44 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
 }
 ```
 
+#### get() 实现
+```Java
+// 实现get和相关方法
+public V get(Object key) {
+    Node<K,V> e;
+    return (e = getNode(hash(key), key)) == null ? null : e.value;
+}
+
+final Node<K,V> getNode(int hash, Object key) {
+    Node<K,V>[] tab; Node<K,V> first, e; int n; K k;
+    // 判断数组是否为null或空
+    if ((tab = table) != null && (n = tab.length) > 0 &&
+        (first = tab[(n - 1) & hash]) != null) {
+        if (first.hash == hash && // always check first node
+            ((k = first.key) == key || (key != null && key.equals(k))))
+            return first;
+        if ((e = first.next) != null) {
+            if (first instanceof TreeNode)
+                return ((TreeNode<K,V>)first).getTreeNode(hash, key);
+            do {
+                if (e.hash == hash &&
+                    ((k = e.key) == key || (key != null && key.equals(k))))
+                    return e;
+            } while ((e = e.next) != null);
+        }
+    }
+    return null;
+}
+```
+算法流程：  
+1. 通过 hash & (table.length - 1)获取该key对应的数据节点的位置;
+2. 判断首节点是否为空, 为空则直接返回空;
+3. 再判断首节点.key 是否和目标值相同, 相同则直接返回(首节点不用区分链表还是红黑树);
+4. 首节点.next为空, 则直接返回空;
+5. 首节点是树形节点, 则进入红黑树数的取值流程, 并返回结果;
+6. 进入链表的取值流程, 并返回结果;
+
+
 ### HashMap 什么时候会强制扩容
 
 1. 元素个数达到阈值的时候发生扩容
@@ -355,9 +397,17 @@ Hash算法的本质是取模，即hash%length，但是计算机中直接求余�
 例如长度为9时候，3&(9-1)=0  2&(9-1)=0 ，都在0上，碰撞了；
 例如长度为8时候，3&(8-1)=3  2&(8-1)=2 ，不同位置上，不碰撞；
 
+### 当两个对象的hashcode相同会发生什么
+因为hashcode相同，所以它们的bucket位置相同，‘碰撞’会发生。因为HashMap使用链表存储对象，这个Entry(包含有键值对的Map.Entry对象)会存储在链表中。  
+这个时候要理解根据hashcode来划分的数组，如果数组的坐标相同，则进入链表这个数据结构中了。**jdk1.7及以前为头插法，jdk1.8之后是尾插法，在jdk1.8之后，当链表长度到达8的时候，jdk1.8上升为红黑树*。*
+
+### 如果两个键的hashcode相同，你如何获取值对象
+当我们调用get()方法，HashMap会使用键对象的hashcode找到bucket位置，然后获取值对象，如果有两个值对象储存在同一个bucket，将会遍历链表直到找到值对象。找到bucket位置之后，会调用keys.equals()方法去找到链表或红黑树中正确的节点，最终找到要找的值对象。
+
+### 你了解重新调整HashMap大小存在什么问题吗
+当重新调整HashMap大小的时候，确实存在条件竞争，因为如果两个线程都发现HashMap需要重新调整大小了，它们会同时试着调整大小。在调整大小的过程中，存储在链表中的元素的次序会反过来，因为移动到新的bucket位置的时候，HashMap并不会将元素放在链表的尾部，而是放在头部，这是为了避免尾部遍历(tail traversing)，原数组[j]位置上的桶移到了新数组[j+原数组长度]。如果条件竞争发生了，那么就死循环了。
 
 ### HashMap 为什么是线程不安全的
-
 HashMap 在并发时可能出现的问题主要是两方面：
 
 1. put的时候导致的多线程**数据不一致**。例如有两个线程A和B，首先A希望插入一个key-value对到HashMap中，首先计算记录所要落到的 hash桶的索引坐标，然后获取到该桶里面的链表头结点，此时线程A的时间片用完了，而此时线程B被调度得以执行，和线程A一样执行，只不过线程B成功将记录插到了桶里面，假设线程A插入的记录计算出来的 hash桶索引和线程B要插入的记录计算出来的 hash桶索引是一样的，那么当线程B成功插入之后，线程A再次被调度运行时，它依然持有过期的链表头但是它对此一无所知，以至于它认为它应该这样做，如此一来就覆盖了线程B插入的记录，这样线程B插入的记录就凭空消失了，造成了数据不一致的行为。
@@ -369,7 +419,7 @@ HashMap 在并发时可能出现的问题主要是两方面：
 
 * HashMap可以接受为null的键值(key)和值(value)，而Hashtable则不行
 * HashMap是非synchronized，而Hashtable是synchronized
-* Hashtable是线程安全的（因为它是synchronized的），多个线程可以共享一个Hashtable，而HashMap不行。Java 5提供了ConcurrentHashMap，它是HashTable的替代，比HashTable的扩展性更好。
+* Hashtable是线程安全的（因为它是synchronized的），多个线程可以共享一个Hashtable，而HashMap不行。**Java 5提供了ConcurrentHashMap，它是HashTable的替代，比HashTable的扩展性更好**。
 * HashMap的迭代器(Iterator)是fail-fast迭代器，而Hashtable的enumerator迭代器不是fail-fast的。所以当有其它线程改变了HashMap的结构（增加或者移除元素），将会抛出ConcurrentModificationException，但迭代器本身的remove()方法移除元素则不会抛出ConcurrentModificationException异常。但这并不是一个一定发生的行为，要看JVM。这条同样也是Enumeration和Iterator的区别。
 * HashMap性能要好过Hashtable。
 * HashMap不能保证随着时间的推移Map中的元素次序是不变的。
@@ -386,6 +436,11 @@ HashMap可以通过下面的语句进行同步：
 ### 重写equals方法需同时重写hashCode方法
 这是一种规范：如果两个对象根据equals方法比较是相等的，那么调用这两个对象的任意一个hashcode方法都必须产生相同的结果。
 
+**1. equal()相等的两个对象他们的hashCode()肯定相等，也就是用equal()对比是绝对可靠的。**
+**2. hashCode()相等的两个对象他们的equal()不一定相等，也就是hashCode()不是绝对可靠的。**
+
+所以解决方式是，每当需要对比的时候，首先用hashCode()去对比，**如果hashCode()不一样，则表示这两个对象肯定不相等**（也就是不必再用equal()去再对比了）**,如果hashCode()相同，此时再对比他们的equal()**，如果equal()也相同，则表示这两个对象是真的相同了，这样既能大大提高了效率也保证了对比的绝对正确性！
+
 ### JDK1.8 中 HashMap 的性能优化
 JDK1.8在JDK1.7的基础上针对增加了红黑树来进行优化。即当链表超过8时，链表就转换为红黑树，利用红黑树快速增删改查的特点提高HashMap的性能，其中会用到红黑树的插入、删除、查找等算法。
 ![put方法](./img/HashMap-process.webp)
@@ -396,4 +451,6 @@ JDK1.8在JDK1.7的基础上针对增加了红黑树来进行优化。即当链�
 * [一文读懂HashMap](https://www.jianshu.com/p/ee0de4c99f87)
 * [HashMap源码解析JDK1.8](https://blog.csdn.net/m0_37914588/article/details/82287191)
 * [HashMap的长度为什么要是2的n次方](https://blog.csdn.net/sidihuo/article/details/78489820)
+* [hashcode（）和equals（）的作用、区别、联系](https://www.cnblogs.com/keyi/p/7119825.html)
+* [HashMap面试常问问题](https://blog.csdn.net/weixin_42636552/article/details/82016183)
 
