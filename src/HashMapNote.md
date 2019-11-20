@@ -344,9 +344,9 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
 
 ### 什么情况会导致 hash 冲突
 
-1.两节点key 值相同（hash值一定相同），导致冲突；
-2.两节点key 值不同，由于 hash 函数的局限性导致hash 值相同，冲突；
-3.两节点key 值不同，hash 值不同，但 hash 值对数组长度取模后相同，冲突；
+1. 两节点key 值相同（hash值一定相同），导致冲突；
+2. 两节点key 值不同，由于 hash 函数的局限性导致hash 值相同，冲突；
+3. 两节点key 值不同，hash 值不同，但 hash 值对数组长度取模后相同，冲突；
 
 ### 为什么 HashMap 的数组长度一定是2的次幂
 Hash算法的本质是取模，即hash%length，但是计算机中直接求余效率不如位移运算，源码中做了优化 hash&(length-1)，而**hash%length==hash&(length-1) 的前提是 length 是2的n次方**；
@@ -392,8 +392,8 @@ JDK1.8在JDK1.7的基础上针对增加了红黑树来进行优化。即当链�
 
 ### 参考文献
 
-[深入浅出学Java——HashMap](https://blog.csdn.net/woshimaxiao1/article/details/83661464)
-[一文读懂HashMap](https://www.jianshu.com/p/ee0de4c99f87)
-[HashMap源码解析JDK1.8](https://blog.csdn.net/m0_37914588/article/details/82287191)
-[HashMap的长度为什么要是2的n次方](https://blog.csdn.net/sidihuo/article/details/78489820)
+* [深入浅出学Java——HashMap](https://blog.csdn.net/woshimaxiao1/article/details/83661464)
+* [一文读懂HashMap](https://www.jianshu.com/p/ee0de4c99f87)
+* [HashMap源码解析JDK1.8](https://blog.csdn.net/m0_37914588/article/details/82287191)
+* [HashMap的长度为什么要是2的n次方](https://blog.csdn.net/sidihuo/article/details/78489820)
 
