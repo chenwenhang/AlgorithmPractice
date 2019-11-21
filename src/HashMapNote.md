@@ -15,9 +15,9 @@ HashMap 的主干是一个 Node 数组，每一个 Node 是包含一个 key-valu
 // HashMap 的主干数组，可以看到就是一个Node数组，初始值为空数组{}，主干数组的长度一定是2的次幂
 transient Node<K,V>[] table;
 
-// Entry是HashMap的一个静态内部类
+// Node是HashMap的一个静态内部类
 static class Node<K,V> implements Map.Entry<K,V> {
-	final K key;
+    final K key;
     V value;
     // 存储指向下一个Entry的引用，单链表结构
     Node<K,V> next;
@@ -280,8 +280,7 @@ public V put(K key, V value) {
 }
 
 // 实现put和相关方法。
-final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
-               boolean evict) {
+final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) {
     Node<K,V>[] tab; Node<K,V> p; int n, i;
     // 如果table为空或者长度为0，则resize()
     if ((tab = table) == null || (n = tab.length) == 0)
