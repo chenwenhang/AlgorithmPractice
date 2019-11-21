@@ -34,6 +34,7 @@ A project to record algorithm practice.
 * [求逆序对](./src/Inversions.py)
 * [找两个有序数组中位数](./src/FindMedianSortedArrays.java)
 * [搜索旋转排序数组](./src/SearchInRotatedSortedArray.java)
+* [在排序数组中查找元素的第一个和最后一个位置](./src/FindFirstAndLastPositionOfElementInSortedArray.java)
 
 <span id="RecursionAndDynamicProgramming"></span>
 ## Recursion and Dynamic Programming
