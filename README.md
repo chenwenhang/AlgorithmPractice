@@ -51,6 +51,7 @@ A project to record algorithm practice.
 * [电话号码的字母组合](./src/LetterCombinations.java)
 * [删除链表的倒数第N个节点](./src/RemoveNthFromEnd.java)
 * [最长有效括号](./src/LongestValidParentheses.java)
+* [报数](./src/CountAndSay.java)
 
 
 <span id="Greedy"></span>
