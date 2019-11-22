@@ -18,7 +18,7 @@
 > 
 > ——《阿里巴巴Java开发手册》
 
-具体内容移步[HashMap笔记](./HashMapNote.md)
+具体内容见[HashMap笔记](./HashMapNote.md)
 
 ### 使用移位运算符代替乘除
 * `<<` : 左移，不分正负数，低位补0
@@ -43,6 +43,15 @@ Integer.MAX_VALUE<<1  // -2
 > 对char，byte或者short进行移位处理，那么在移位进行之前，它们会自动转换成一个int。只有右侧的5个低位才会有用。这样可防止我们在一个int数里移动不切实际的位数。若对一个long值进行处理，最后得到的结果也是long。此时只会用到右侧的6个低位，防止移动超过long值里现成的位数。 
 >
 >  ——《Thinking in java》
+
+### 涉及到多次对字符串的大量操作采用StringBuilder
+
+* 如果要操作少量的数据用 `String`
+* **单线程操作字符串缓冲区下操作大量数据** `StringBuilder`
+* 多线程操作字符串缓冲区下操作大量数据 `StringBuffer`
+
+具体内容见[字符串处理笔记](./StringAndStringBuilder.md)
+
 
 ## 参考文献
 * [理解java移位运算符](https://www.cnblogs.com/winsker/p/6728672.html)

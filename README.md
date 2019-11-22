@@ -14,6 +14,7 @@ A project to record algorithm practice.
 * [二分查找笔记](./src/BinarySearch.md)
 * [递归和动态规划笔记](./src/RecursionAndDynamicProgramming.md)
 * [HashMap笔记](./src/HashMapNote.md)
+* [字符串处理笔记](./src/StringAndStringBuilder.md)
 
 <span id="StackAndQueue"></span>
 ## Stack and Queue
