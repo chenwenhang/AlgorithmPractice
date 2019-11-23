@@ -53,6 +53,7 @@ A project to record algorithm practice.
 * [删除链表的倒数第N个节点](./src/RemoveNthFromEnd.java)
 * [最长有效括号](./src/LongestValidParentheses.java)
 * [报数](./src/CountAndSay.java)
+* [全排列](./src/Permutations.java)
 
 
 <span id="Greedy"></span>
