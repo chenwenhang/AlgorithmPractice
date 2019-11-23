@@ -11,20 +11,11 @@ s = s + "b" ;
 // 降低效率，如果放在循环中，会极大影响循环效率
 ```
 
-字符串可以赋值为 `null`，
+#### 不可变的好处
 
-### StringBuilder 字符串变量
-
-#### 特点
-
-优点：
-
-* **可变**字符序列
-* **效率最高**
-
-缺点：
-
-* 线程不安全
+* 由于 `String` 是不可变类，所以**线程安全**，我们不需要做任何其他同步操作
+* `String` 是不可变的，它的值也不能被改变，所以用来存储数据密码很安全
+* 因为java字符串是不可变的，可以在java运行时节省大量java堆空间。因为不同的字符串变量可以引用池中的相同的字符串。如果字符串是可变得话，任何一个变量的值改变，就会反射到其他变量，那字符串池也就没有任何意义了
 
 #### 字符串常量池
 
@@ -34,16 +25,16 @@ s = s + "b" ;
 
 #### 创建字符串
 
-1. 使用字面量（例如：`String str = "abc"`，这里的 `"abc"` 就是字面量）  
+1. 使用字面量（例如：`String str = "abc"`，这里的 `"abc"` 就是字面量。**使用字面量不一定会创建出一个对象**）  
 （1）如果字符串常量池中没有值： 则直接创建字符串，并将值存入字符串常量池中对于字面量形式创建出来的字符串，JVM会在编译期时对其进行优化并将字面量值存放在字符串常量池中。运行期在**虚拟机栈栈帧**中的局部变量表里创建一个name局部变量，然后指向字符串常量池中的值，如图所示：
 ![字符串](./img/StringAndStringBuilder-string-pool.webp)  
 （2）如果字符常量池中存在字面量值，此时要看这个是真正的**字符串值**还是**引用**。如果是字符串值则将局部变量指向常量池中的值；否则指向引用指向的地方。比如常量池中的值时指向堆中的引用，则name变量为将指向堆中的引用，如图所示：  
 ![字符串](./img/StringAndStringBuilder-string-pool2.webp)  
 
-2. 使用new的方式创建字符串  
-首先在堆中new出一个对象，然后常量池中创建一个指向堆中"bruis"的引用。
+2. 使用 `new` 的方式创建字符串（使用 `new` 一定会创建出一个对象。）  
+首先在堆中 `new` 出一个对象，然后常量池中创建一个指向堆中"bruis"的引用。
 
-#### String的intern方法
+#### String 的 intern方法
 
 当调用intern()方法时，**如果字符串常量池中包含该字符串，则直接返回字符串常量池中的字符串。否则将此String对象添加到字符串常量池中，并返回对此String对象的引用**。
 ```Java
@@ -63,10 +54,31 @@ System.out.println("a3 == a2.intern() " + (a3 == a2.intern()));
 // a3 == a2.intern() true
 ```
 
+#### 常用方法
+
+```Java
+// 比较两个字符串
+s.compareTo(String anotherString) // s小于 anotherString 返回负数，大于返回正数，相等返回0
+s.equalsIgnoreCase(String str)    // 忽略大小写比较
+
+// 转化为 `char` 数组
+char[] chars = str.toCharArray();
+
+// 转换为 `byte` 数组
+byte[] byteArr = str.getBytes(); 
+
+// byte转化为String
+String str = new String(byteArray);
+
+// 字符串分割
+public String[] split(String regex): // 根据正则字符串分割，如果最后一位刚好有传入的字符，返回数组最后一位不会有空字符串
+public String[] split(String regex, int limit): // 限制数组长度，达到限制后，最后一个元素存储余下字符串
+```
+
 #### 编译器的优化
 
-* 常量可以被认为运行时不可改变，所以编译时被以常量折叠方式优化
-* 变量和动态生成的常量必须在运行时确定值，所以不能在编译期折叠优化
+* 常量可以被认为运行时不可改变，所以编译时被以常量折叠方式优化。例如 `String s = "a" + "b";`
+* 变量和动态生成的常量必须在运行时确定值，所以不能在编译期折叠优化。例如 `String s = str + "b";`
 
 
 #### 源码
@@ -85,7 +97,7 @@ public final class String implements java.io.Serializable, Comparable<String>, C
 private final char value[];
 
 /** Cache the hash code for the string */
-// 因为String经常被用于比较，保存hashcode不必重复计算
+// 因为String经常被用于比较，保存hashcode不必重复计算。这也是平常我们使用String作为HashMap的key的原因
 private int hash; // Default to 0
 
 // 持有一个静态内部类，用于忽略大小写得比较两个字符串
@@ -185,8 +197,26 @@ public int offsetByCodePoints(int index, int codePointOffset) {
 // 因此，每一个 Unicode 字符要么属于 BMP，要么属于增补字符。
 ```
 
+### StringBuilder 字符串变量
+
+#### 特点
+
+优点：
+
+* **可变**字符序列
+* **效率最高**
+
+缺点：
+
+* 线程不安全
+
+#### 继承关系
+
+![继承关系](./img/StringAndStringBuilder-inherit2.webp)
 
 ### StringBuffer 字符串变量
+
+#### 特点
 
 优点：
 
@@ -197,6 +227,8 @@ public int offsetByCodePoints(int index, int codePointOffset) {
 
 * 效率较低
 
+继承关系同 `StringBuilder`
+
 ### 三者关系
 
 * 三者继承关系  
@@ -204,9 +236,9 @@ public int offsetByCodePoints(int index, int codePointOffset) {
 
 * 速度： StringBuilder > StringBuffer > String
 
-
 ### 参考文献
 
 * [String,StringBuffer与StringBuilder的区别](https://blog.csdn.net/weixin_41101173/article/details/79677982)
 * [Java-- String源码分析](https://www.cnblogs.com/listenfwind/p/8450241.html)
 * [深入学习String源码与底层（一）](https://blog.csdn.net/CoderBruis/article/details/94884673)
+* [Java String 面试题以及答案](https://www.cnblogs.com/rese-t/p/8024166.html)

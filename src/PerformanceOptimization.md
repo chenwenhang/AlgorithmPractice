@@ -46,9 +46,9 @@ Integer.MAX_VALUE<<1  // -2
 
 ### 涉及到多次对字符串的大量操作采用StringBuilder
 
-* 如果要操作少量的数据用 `String`
-* **单线程操作字符串缓冲区下操作大量数据** `StringBuilder`
-* 多线程操作字符串缓冲区下操作大量数据 `StringBuffer`
+* 少量的字符串操作用 `String`
+* **单线程对字符串缓冲区进行大量操作** `StringBuilder`
+* 多线程对字符串缓冲区进行大量操作 `StringBuffer`
 
 具体内容见[字符串处理笔记](./StringAndStringBuilder.md)
 
