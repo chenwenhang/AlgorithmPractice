@@ -54,6 +54,7 @@ A project to record algorithm practice.
 * [最长有效括号](./src/LongestValidParentheses.java)
 * [报数](./src/CountAndSay.java)
 * [全排列](./src/Permutations.java)
+* [最大子序和](./src/MaximumSubarray.java)
 
 
 <span id="Greedy"></span>
