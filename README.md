@@ -7,6 +7,7 @@ A project to record algorithm practice.
 * [Divide and Conquer](#DivideAndConquer)
 * [Recursion and Dynamic Programming](#RecursionAndDynamicProgramming)
 * [Greedy](#Greedy)
+* [Other](#Other)
 
 <span id="Notes"></span>
 ## ⭐ Notes ⭐
@@ -63,6 +64,12 @@ A project to record algorithm practice.
 * [最少圆覆盖最多点问题](./src/BoatCommunication.java)
 * [最小化工厂成本](./src/MinFactoryCost.java)
 * [直线上黑白点连线最短问题](./src/MinBlackWhiteLine.java)
+
+
+<span id="Other"></span>
+## Other
+* [螺旋矩阵](./src/SpiralMatrix.java)
+
 
 
 
