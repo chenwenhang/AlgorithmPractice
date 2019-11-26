@@ -58,6 +58,8 @@ A project to record algorithm practice.
 * [报数](./src/recursion_and_dynamic_programming/CountAndSay.java)
 * [全排列](./src/recursion_and_dynamic_programming/Permutations.java)
 * [最大子序和](./src/recursion_and_dynamic_programming/MaximumSubarray.java)
+* [不同路径](./src/recursion_and_dynamic_programming/UniquePaths.java)
+* [爬楼梯](./src/recursion_and_dynamic_programming/ClimbStairs.java)
 
 <span id="Greedy"></span>
 ## Greedy
@@ -70,6 +72,7 @@ A project to record algorithm practice.
 ## Array and Matrix
 * [螺旋矩阵](./src/array_and_matrix/SpiralMatrix.java)
 * [螺旋矩阵II](./src/array_and_matrix/SpiralMatrix2.java)
+* [合并两个有序数组](./src/array_and_matrix/MergeSortedArray.java)
 
 <span id="LinkedList"></span>
 ## Linked List
@@ -77,7 +80,7 @@ A project to record algorithm practice.
 
 <span id="Other"></span>
 ## Other
-
+* [子集](./src/other/Subsets.java)
 
 
 
