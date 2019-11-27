@@ -81,6 +81,7 @@ A project to record algorithm practice.
 <span id="Other"></span>
 ## Other
 * [子集](./src/other/Subsets.java)
+* [格雷编码](./src/other/GrayCode.java)
 
 
 
