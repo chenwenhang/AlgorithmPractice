@@ -9,6 +9,7 @@ A project to record algorithm practice.
 * [Greedy](#Greedy)
 * [Array and Matrix](#ArrayAndMatrix)
 * [Linked List](#LinkedList)
+* [Binary Tree](#BinaryTree)
 * [Other](#Other)
 
 <span id="Notes"></span>
@@ -77,6 +78,11 @@ A project to record algorithm practice.
 <span id="LinkedList"></span>
 ## Linked List
 * [旋转链表](./src/linked_list/RotateList.java)
+
+<span id="BinaryTree"></span>
+## Binary Tree
+* [二叉树的最大深度](./src/binary_tree/MaximumDepthOfBinaryTree.java)
+* [二叉搜索树的最近公共祖先](./src/binary_tree/LowestCommonAncestorOfABinarySearchTree.java)
 
 <span id="Other"></span>
 ## Other
