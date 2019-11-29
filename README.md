@@ -74,6 +74,9 @@ A project to record algorithm practice.
 * [螺旋矩阵](./src/array_and_matrix/SpiralMatrix.java)
 * [螺旋矩阵II](./src/array_and_matrix/SpiralMatrix2.java)
 * [合并两个有序数组](./src/array_and_matrix/MergeSortedArray.java)
+* [买卖股票的最佳时机](./src/array_and_matrix/BestTimeToBuyAndSellStock.java)
+* [买卖股票的最佳时机II](./src/array_and_matrix/BestTimeToBuyAndSellStock2.java)
+* [只出现一次的数字](./src/array_and_matrix/SingleNumber.java)
 
 <span id="LinkedList"></span>
 ## Linked List
