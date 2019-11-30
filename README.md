@@ -81,6 +81,9 @@ A project to record algorithm practice.
 <span id="LinkedList"></span>
 ## Linked List
 * [旋转链表](./src/linked_list/RotateList.java)
+* [环形链表](./src/linked_list/LinkedListCycle.java)
+* [环形链表II（HashSet解法）](./src/linked_list/LinkedListCycle2.java)
+* [环形链表II（Floyd解法）](./src/linked_list/LinkedListCycle3.java)
 
 <span id="BinaryTree"></span>
 ## Binary Tree
