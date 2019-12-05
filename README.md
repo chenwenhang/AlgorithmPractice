@@ -78,6 +78,7 @@ A project to record algorithm practice.
 * [买卖股票的最佳时机II](./src/array_and_matrix/BestTimeToBuyAndSellStock2.java)
 * [只出现一次的数字](./src/array_and_matrix/SingleNumber.java)
 * [多数元素](./src/array_and_matrix/MajorityElement.java)
+* [存在重复元素](./src/array_and_matrix/ContainsDuplicate.java)
 
 <span id="LinkedList"></span>
 ## Linked List
