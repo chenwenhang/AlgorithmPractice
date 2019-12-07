@@ -100,6 +100,7 @@ A project to record algorithm practice.
 ## Other
 * [子集](./src/other/Subsets.java)
 * [格雷编码](./src/other/GrayCode.java)
+* [Nim 游戏](./src/other/NimGame.java)
 
 
 
