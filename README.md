@@ -101,6 +101,8 @@ A project to record algorithm practice.
 * [子集](./src/other/Subsets.java)
 * [格雷编码](./src/other/GrayCode.java)
 * [Nim 游戏](./src/other/NimGame.java)
+* [2的幂](./src/other/PowerOfTwo.java)
+
 
 
 
