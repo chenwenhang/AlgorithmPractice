@@ -79,6 +79,7 @@ A project to record algorithm practice.
 * [只出现一次的数字](./src/array_and_matrix/SingleNumber.java)
 * [多数元素](./src/array_and_matrix/MajorityElement.java)
 * [存在重复元素](./src/array_and_matrix/ContainsDuplicate.java)
+* [反转字符串](./src/array_and_matrix/ReverseString.java)
 
 <span id="LinkedList"></span>
 ## Linked List
