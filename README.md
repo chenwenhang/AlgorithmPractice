@@ -28,6 +28,7 @@ A project to record algorithm practice.
 * [猫狗队列](./src/stack_and_queue/DogCatQueue.java)
 * [用一个栈实现另一个栈的排序](./src/stack_and_queue/SortStackByStack.java)
 * [生成窗口最大值数组](./src/stack_and_queue/MaxWindow.java)
+* [最小栈](./src/stack_and_queue/MinStack.java)
 
 <span id="DivideAndConquer"></span>
 ## Divide and Conquer
