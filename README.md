@@ -92,12 +92,13 @@ A project to record algorithm practice.
 * [LRU缓存机制](./src/linked_list/LRUCache.java)
 * [相交链表](./src/linked_list/IntersectionOfTwoLinkedLists.java)
 * [反转链表](./src/linked_list/ReverseLinkedList.java)
-* [删除链表中的节点](./src/linked_list/ReverseLinkedList.java)
+* [删除链表中的节点](./src/linked_list/DeleteNodeInALinkedList.java)
 
 <span id="BinaryTree"></span>
 ## Binary Tree
 * [二叉树的最大深度](./src/binary_tree/MaximumDepthOfBinaryTree.java)
-* [二叉搜索树的最近公共祖先](./src/binary_tree/DeleteNodeInALinkedList.java)
+* [二叉搜索树的最近公共祖先](./src/binary_tree/LowestCommonAncestorOfABinarySearchTree.java)
+* [二叉树的最近公共祖先](./src/binary_tree/LowestCommonAncestorOfABinaryTree.java)
 
 <span id="Other"></span>
 ## Other

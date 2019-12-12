@@ -38,6 +38,7 @@ public class LowestCommonAncestorOfABinarySearchTree {
      * 4. 如果条件 2 和条件 3 都不成立，这就意味着我们已经找到节 p和节点 q的 LCA 了
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) return null;
         if (root.val < p.val && root.val < q.val) {
             return lowestCommonAncestor(root.right, p, q);
         } else if (root.val > p.val && root.val > q.val) {
