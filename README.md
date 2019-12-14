@@ -106,6 +106,7 @@ A project to record algorithm practice.
 * [格雷编码](./src/other/GrayCode.java)
 * [Nim 游戏](./src/other/NimGame.java)
 * [2的幂](./src/other/PowerOfTwo.java)
+* [字符串相乘](./src/other/MultiplyStrings.java)
 
 
 
