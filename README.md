@@ -93,6 +93,7 @@ A project to record algorithm practice.
 * [相交链表](./src/linked_list/IntersectionOfTwoLinkedLists.java)
 * [反转链表](./src/linked_list/ReverseLinkedList.java)
 * [删除链表中的节点](./src/linked_list/DeleteNodeInALinkedList.java)
+* [排序链表](./src/linked_list/SortList.java)
 
 <span id="BinaryTree"></span>
 ## Binary Tree
