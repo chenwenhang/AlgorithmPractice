@@ -82,6 +82,7 @@ A project to record algorithm practice.
 * [存在重复元素](./src/array_and_matrix/ContainsDuplicate.java)
 * [反转字符串](./src/array_and_matrix/ReverseString.java)
 * [反转字符串中的单词 III](./src/array_and_matrix/ReverseWordsInAStringIII.java)
+* [数组中第k大的数](./src/array_and_matrix/KthLargestElementInAnArray.java)
 
 <span id="LinkedList"></span>
 ## Linked List
