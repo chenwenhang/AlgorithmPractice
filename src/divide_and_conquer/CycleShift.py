@@ -1,6 +1,7 @@
 # 给定一个数组，数组中元素按从小到大排好序，现将数组中元素循环右移若干位，请设计一算法，计算出循环右移了多少位。
 # 分治
 def get_cycle_shift_bit(left, right, A):
+    # 跳出递归的条件
     if left == right:
         return 0
     if right - left == 1:
