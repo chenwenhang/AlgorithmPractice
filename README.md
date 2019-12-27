@@ -116,6 +116,7 @@ A project to record algorithm practice.
 * [2的幂](./src/other/PowerOfTwo.java)
 * [字符串相乘](./src/other/MultiplyStrings.java)
 * [两数相除](./src/other/DivideTwoIntegers.java)
+* [杨辉三角](./src/other/PascalTriangle.java)
 
 
 
