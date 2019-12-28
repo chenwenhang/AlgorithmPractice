@@ -41,6 +41,7 @@ A project to record algorithm practice.
 * [找两个有序数组中位数](./src/divide_and_conquer/FindMedianSortedArrays.java)
 * [搜索旋转排序数组](./src/divide_and_conquer/SearchInRotatedSortedArray.java)
 * [在排序数组中查找元素的第一个和最后一个位置](./src/divide_and_conquer/FindFirstAndLastPositionOfElementInSortedArray.java)
+* [快速排序](./src/divide_and_conquer/QuickSort.java)
 
 <span id="RecursionAndDynamicProgramming"></span>
 ## Recursion and Dynamic Programming
