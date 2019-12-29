@@ -62,6 +62,7 @@ A project to record algorithm practice.
 * [全排列](./src/recursion_and_dynamic_programming/Permutations.java)
 * [最大子序和](./src/recursion_and_dynamic_programming/MaximumSubarray.java)
 * [不同路径](./src/recursion_and_dynamic_programming/UniquePaths.java)
+* [不同路径II](./src/recursion_and_dynamic_programming/UniquePathsII.java)
 * [爬楼梯](./src/recursion_and_dynamic_programming/ClimbStairs.java)
 
 <span id="Greedy"></span>
