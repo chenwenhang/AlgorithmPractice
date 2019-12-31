@@ -11,7 +11,7 @@ package recursion_and_dynamic_programming;
  * 记： f(n,c) 为前n个数有c个乘号时的最大值
  * 现对乘号个数进行动态规划：
  * 假设将前k个数中有c-1个乘号，空位k处为第c个乘号，剩下的第k+1到第n个数全为加号
- * 状态转移方程：f(n,c)=f(k,c-1)+sum(k+1,n)
+ * 状态转移方程：f(n,c)=f(k,c-1)*sum(k+1,n)
  * 注：该方程基于“当在[1,9]取值时，除了部分特例（例如全1相加大于相乘）以外，和的积大于积的和”，这里不再证明
  */
 public class GetMaxEquation {
