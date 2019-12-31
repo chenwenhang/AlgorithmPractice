@@ -119,6 +119,7 @@ A project to record algorithm practice.
 * [字符串相乘](./src/other/MultiplyStrings.java)
 * [两数相除](./src/other/DivideTwoIntegers.java)
 * [杨辉三角](./src/other/PascalTriangle.java)
+* [Excel表列序号](./src/other/ExcelSheetColumnNumber.java)
 
 
 
