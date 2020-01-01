@@ -109,6 +109,7 @@ A project to record algorithm practice.
 * [二叉树的最近公共祖先](./src/binary_tree/LowestCommonAncestorOfABinaryTree.java)
 * [二叉搜索树中第K小的元素](./src/binary_tree/KthSmallestElementInABST.java)
 * [二叉树中的最大路径和](./src/binary_tree/BinaryTreeMaximumPathSum.java)
+* [相同的树](./src/binary_tree/SameTree.java)
 
 <span id="Other"></span>
 ## Other
