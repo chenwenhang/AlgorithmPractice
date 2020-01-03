@@ -122,6 +122,7 @@ A project to record algorithm practice.
 * [杨辉三角](./src/other/PascalTriangle.java)
 * [Excel表列序号](./src/other/ExcelSheetColumnNumber.java)
 * [有效的字母异位词](./src/other/ValidAnagram.java)
+* [字符串中的第一个唯一字符](./src/other/FirstUniqueCharacterInAString.java)
 
 
 
