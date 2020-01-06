@@ -125,6 +125,7 @@ A project to record algorithm practice.
 * [有效的字母异位词](./src/other/ValidAnagram.java)
 * [字符串中的第一个唯一字符](./src/other/FirstUniqueCharacterInAString.java)
 * [Fizz Buzz](./src/other/FizzBuzz.java)
+* [两整数之和](./src/other/SumOfTwoIntegers.java)
 
 
 
