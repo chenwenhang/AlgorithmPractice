@@ -104,6 +104,7 @@ A project to record algorithm practice.
 * [删除链表中的节点](./src/linked_list/DeleteNodeInALinkedList.java)
 * [排序链表](./src/linked_list/SortList.java)
 * [合并K个排序链表](./src/linked_list/MergeKSortedLists.java)
+* [回文链表](./src/linked_list/PalindromeLinkedList.java)
 
 <span id="BinaryTree"></span>
 ## Binary Tree
