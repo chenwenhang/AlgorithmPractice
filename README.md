@@ -91,6 +91,7 @@ A project to record algorithm practice.
 * [两个数组的交集 II](./src/array_and_matrix/IntersectionOfTwoArraysII.java)
 * [移动零](./src/array_and_matrix/MoveZeroes.java)
 * [缺失数字](./src/array_and_matrix/MissingNumber.java)
+* [跳跃游戏](./src/array_and_matrix/JumpGame.java)
 
 <span id="LinkedList"></span>
 ## Linked List
