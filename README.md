@@ -116,6 +116,7 @@ A project to record algorithm practice.
 * [二叉搜索树中第K小的元素](./src/binary_tree/KthSmallestElementInABST.java)
 * [二叉树中的最大路径和](./src/binary_tree/BinaryTreeMaximumPathSum.java)
 * [相同的树](./src/binary_tree/SameTree.java)
+* [对称二叉树](./src/binary_tree/SymmetricTree.java)
 
 <span id="Other"></span>
 ## Other
