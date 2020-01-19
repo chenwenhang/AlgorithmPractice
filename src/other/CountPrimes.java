@@ -16,7 +16,7 @@ import java.util.Arrays;
  */
 public class CountPrimes {
     public boolean isPrime(int n) {
-        for (int i = 2; i < n; i++)
+        for (int i = 2; i * i <= n; i++)
             if (n % i == 0)
                 // 有其他整除因子
                 return false;
