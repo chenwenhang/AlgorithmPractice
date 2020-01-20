@@ -138,6 +138,7 @@ A project to record algorithm practice.
 * [位1的个数](./src/other/NumberOf1Bits.java)
 * [验证回文串](./src/other/ValidPalindrome.java)
 * [计数质数](./src/other/CountPrimes.java)
+* [阶乘后的零](./src/other/FactorialTrailingZeroes.java)
 
 
 
