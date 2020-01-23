@@ -94,6 +94,7 @@ A project to record algorithm practice.
 * [缺失数字](./src/array_and_matrix/MissingNumber.java)
 * [跳跃游戏](./src/array_and_matrix/JumpGame.java)
 * [旋转数组](./src/array_and_matrix/RotateArray.java)
+* [寻找重复数](./src/array_and_matrix/FindTheDuplicateNumber.java)
 
 <span id="LinkedList"></span>
 ## Linked List
