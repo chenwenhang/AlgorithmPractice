@@ -119,7 +119,8 @@ A project to record algorithm practice.
 * [二叉树中的最大路径和](./src/binary_tree/BinaryTreeMaximumPathSum.java)
 * [相同的树](./src/binary_tree/SameTree.java)
 * [对称二叉树](./src/binary_tree/SymmetricTree.java)
-* [ 二叉树的中序遍历](./src/binary_tree/BinaryTreeInorderTraversal.java)
+* [二叉树的中序遍历](./src/binary_tree/BinaryTreeInorderTraversal.java)
+* [二叉树的层次遍历](./src/binary_tree/BinaryTreeLevelOrderTraversal.java)
 
 <span id="Other"></span>
 ## Other
