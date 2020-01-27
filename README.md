@@ -123,6 +123,7 @@ A project to record algorithm practice.
 * [对称二叉树](./src/binary_tree/SymmetricTree.java)
 * [二叉树的中序遍历](./src/binary_tree/BinaryTreeInorderTraversal.java)
 * [二叉树的层次遍历](./src/binary_tree/BinaryTreeLevelOrderTraversal.java)
+* [从前序与中序遍历序列构造二叉树](./src/binary_tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
 
 <span id="Other"></span>
 ## Other
