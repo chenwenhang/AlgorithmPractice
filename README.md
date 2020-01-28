@@ -96,6 +96,7 @@ A project to record algorithm practice.
 * [旋转数组](./src/array_and_matrix/RotateArray.java)
 * [寻找重复数](./src/array_and_matrix/FindTheDuplicateNumber.java)
 * [矩阵置零](./src/array_and_matrix/SetMatrixZeroes.java)
+* [颜色分类](./src/array_and_matrix/SortColors.java)
 
 <span id="LinkedList"></span>
 ## Linked List
