@@ -127,6 +127,7 @@ A project to record algorithm practice.
 * [二叉树的层次遍历](./src/binary_tree/BinaryTreeLevelOrderTraversal.java)
 * [从前序与中序遍历序列构造二叉树](./src/binary_tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
 * [填充每个节点的下一个右侧节点指针](./src/binary_tree/PopulatingNextRightPointersInEachNode.java)
+* [二叉树的锯齿形层次遍历](./src/binary_tree/BinaryTreeZigzagLevelOrderTraversal.java)
 
 <span id="Other"></span>
 ## Other
