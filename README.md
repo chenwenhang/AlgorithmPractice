@@ -98,6 +98,7 @@ A project to record algorithm practice.
 * [矩阵置零](./src/array_and_matrix/SetMatrixZeroes.java)
 * [颜色分类](./src/array_and_matrix/SortColors.java)
 * [四数相加 II](./src/array_and_matrix/Sum4II.java)
+* [有序矩阵中第K小的元素](./src/array_and_matrix/KthSmallestElementInASortedMatrix.java)
 
 <span id="LinkedList"></span>
 ## Linked List
