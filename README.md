@@ -100,6 +100,7 @@ A project to record algorithm practice.
 * [四数相加 II](./src/array_and_matrix/Sum4II.java)
 * [有序矩阵中第K小的元素](./src/array_and_matrix/KthSmallestElementInASortedMatrix.java)
 * [加油站](./src/array_and_matrix/GasStation.java)
+* [缺失的第一个正数](./src/array_and_matrix/FirstMissingPositive.java)
 
 <span id="LinkedList"></span>
 ## Linked List
