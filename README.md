@@ -11,6 +11,7 @@ A project to record algorithm practice.
 * [Linked List](#LinkedList)
 * [Binary Tree](#BinaryTree)
 * [Other](#Other)
+* [Company](#Other)
 
 <span id="Notes"></span>
 ## ⭐ Notes ⭐
@@ -153,6 +154,11 @@ A project to record algorithm practice.
 * [验证回文串](./src/other/ValidPalindrome.java)
 * [计数质数](./src/other/CountPrimes.java)
 * [阶乘后的零](./src/other/FactorialTrailingZeroes.java)
+
+<span id="Company"></span>
+## Company
+* [字典序的第K小数字](./src/company/KthSmallestInLexicographicalOrder.java)
+
 
 
 
