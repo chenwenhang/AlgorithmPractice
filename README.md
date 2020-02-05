@@ -158,6 +158,7 @@ A project to record algorithm practice.
 <span id="Company"></span>
 ## Company
 * [字典序的第K小数字](./src/company/KthSmallestInLexicographicalOrder.java)
+* [分发糖果](./src/company/Candy.java)
 
 
 
