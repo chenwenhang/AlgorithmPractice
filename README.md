@@ -161,6 +161,7 @@ A project to record algorithm practice.
 * [分发糖果](./src/company/Candy.java)
 * [接雨水](./src/company/TrappingRainWater.java)
 * [K 个一组翻转链表](./src/company/ReverseNodesInKGroup.java)
+* [合并区间](./src/company/MergeIntervals.java)
 
 
 
