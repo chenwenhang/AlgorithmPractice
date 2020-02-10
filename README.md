@@ -154,6 +154,7 @@ A project to record algorithm practice.
 * [验证回文串](./src/other/ValidPalindrome.java)
 * [计数质数](./src/other/CountPrimes.java)
 * [阶乘后的零](./src/other/FactorialTrailingZeroes.java)
+* [宝石和石头](./src/other/JewelsAndStones.java)
 
 <span id="Company"></span>
 ## Company
@@ -165,6 +166,7 @@ A project to record algorithm practice.
 * [复原IP地址](./src/company/RestoreIPAddresses.java)
 * [岛屿数量](./src/company/NumberOfIslands.java)
 * [编辑距离](./src/company/EditDistance.java)
+* [正则表达式匹配](./src/company/RegularExpressionMatching.java)
 
 
 
