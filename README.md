@@ -155,6 +155,7 @@ A project to record algorithm practice.
 * [计数质数](./src/other/CountPrimes.java)
 * [阶乘后的零](./src/other/FactorialTrailingZeroes.java)
 * [宝石和石头](./src/other/JewelsAndStones.java)
+* [6 和 9 组成的最大数字](./src/other/Maximum69Number.java)
 
 <span id="Company"></span>
 ## Company
