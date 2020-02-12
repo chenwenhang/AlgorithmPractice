@@ -168,6 +168,8 @@ A project to record algorithm practice.
 * [岛屿数量](./src/company/NumberOfIslands.java)
 * [编辑距离](./src/company/EditDistance.java)
 * [正则表达式匹配](./src/company/RegularExpressionMatching.java)
+* [求n次方高效算法](./src/company/EfficientAlgorithmForRaisingN.java)
+* [求众数II](./src/company/MajorityElementII.java)
 
 
 
