@@ -170,6 +170,7 @@ A project to record algorithm practice.
 * [正则表达式匹配](./src/company/RegularExpressionMatching.java)
 * [求n次方高效算法](./src/company/EfficientAlgorithmForRaisingN.java)
 * [求众数II](./src/company/MajorityElementII.java)
+* [各位相加](./src/company/AddDigits.java)
 
 
 
