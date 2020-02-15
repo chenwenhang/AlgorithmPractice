@@ -172,6 +172,7 @@ A project to record algorithm practice.
 * [求n次方高效算法](./src/company/EfficientAlgorithmForRaisingN.java)
 * [求众数II](./src/company/MajorityElementII.java)
 * [各位相加](./src/company/AddDigits.java)
+* [二叉树中和为某一值的路径](./src/company/BinaryPathSumEqualToN.java)
 
 
 
