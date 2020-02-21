@@ -105,6 +105,7 @@ A project to record algorithm practice.
 * [数组的相对排序](./src/array_and_matrix/RelativeSortArray.java)
 * [复写零](./src/array_and_matrix/DuplicateZeros.java)
 * [柠檬水找零](./src/array_and_matrix/LemonadeChange.java)
+* [数组的度](./src/array_and_matrix/DegreeOfAnArray.java)
 
 <span id="LinkedList"></span>
 ## Linked List
@@ -159,6 +160,8 @@ A project to record algorithm practice.
 * [阶乘后的零](./src/other/FactorialTrailingZeroes.java)
 * [宝石和石头](./src/other/JewelsAndStones.java)
 * [6 和 9 组成的最大数字](./src/other/Maximum69Number.java)
+* [单词规律](./src/other/WordPattern.java)
+* [平方数之和](./src/other/SumOfSquareNumbers.java)
 
 <span id="Company"></span>
 ## Company
@@ -175,6 +178,7 @@ A project to record algorithm practice.
 * [求众数II](./src/company/MajorityElementII.java)
 * [各位相加](./src/company/AddDigits.java)
 * [二叉树中和为某一值的路径](./src/company/BinaryPathSumEqualToN.java)
+* [零钱兑换](./src/company/CoinChange.java)
 
 
 
