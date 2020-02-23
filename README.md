@@ -180,6 +180,7 @@ A project to record algorithm practice.
 * [二叉树中和为某一值的路径](./src/company/BinaryPathSumEqualToN.java)
 * [零钱兑换](./src/company/CoinChange.java)
 * [两数之和 II - 输入有序数组](./src/company/TwoSumIInputArrayIsSorted.java)
+* [判断子序列](./src/company/IsSubsequence.java)
 
 
 
