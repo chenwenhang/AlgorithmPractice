@@ -162,6 +162,7 @@ A project to record algorithm practice.
 * [6 和 9 组成的最大数字](./src/other/Maximum69Number.java)
 * [单词规律](./src/other/WordPattern.java)
 * [平方数之和](./src/other/SumOfSquareNumbers.java)
+* [最长回文串](./src/other/LongestPalindrome.java)
 
 <span id="Company"></span>
 ## Company
