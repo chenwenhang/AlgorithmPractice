@@ -73,6 +73,8 @@ A project to record algorithm practice.
 * [最少圆覆盖最多点问题](./src/greedy/BoatCommunication.java)
 * [最小化工厂成本](./src/greedy/MinFactoryCost.java)
 * [直线上黑白点连线最短问题](./src/greedy/MinBlackWhiteLine.java)
+* [两地调度](./src/greedy/TwoCityScheduling.java)
+
 
 <span id="ArrayAndMatrix"></span>
 ## Array and Matrix
