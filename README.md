@@ -108,6 +108,7 @@ A project to record algorithm practice.
 * [复写零](./src/array_and_matrix/DuplicateZeros.java)
 * [柠檬水找零](./src/array_and_matrix/LemonadeChange.java)
 * [数组的度](./src/array_and_matrix/DegreeOfAnArray.java)
+* [最长连续递增序列](./src/array_and_matrix/LongestContinuousIncreasingSubsequence.java)
 
 <span id="LinkedList"></span>
 ## Linked List
