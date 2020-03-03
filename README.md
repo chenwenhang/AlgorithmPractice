@@ -140,6 +140,7 @@ A project to record algorithm practice.
 * [填充每个节点的下一个右侧节点指针](./src/binary_tree/PopulatingNextRightPointersInEachNode.java)
 * [二叉树的锯齿形层次遍历](./src/binary_tree/BinaryTreeZigzagLevelOrderTraversal.java)
 * [左叶子之和](./src/binary_tree/SumOfLeftLeaves.java)
+* [二叉树的层平均值](./src/binary_tree/AverageofLevelsinBinaryTree.java)
 
 
 <span id="Other"></span>
