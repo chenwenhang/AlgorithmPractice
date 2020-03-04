@@ -141,6 +141,7 @@ A project to record algorithm practice.
 * [二叉树的锯齿形层次遍历](./src/binary_tree/BinaryTreeZigzagLevelOrderTraversal.java)
 * [左叶子之和](./src/binary_tree/SumOfLeftLeaves.java)
 * [二叉树的层平均值](./src/binary_tree/AverageofLevelsinBinaryTree.java)
+* [N叉树的最大深度](./src/binary_tree/MaximumDepthofNaryTree.java)
 
 
 <span id="Other"></span>
