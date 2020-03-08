@@ -66,6 +66,7 @@ A project to record algorithm practice.
 * [不同路径II](./src/recursion_and_dynamic_programming/UniquePathsII.java)
 * [爬楼梯](./src/recursion_and_dynamic_programming/ClimbStairs.java)
 * [打家劫舍](./src/recursion_and_dynamic_programming/HouseRobber.java)
+* [使用最小花费爬楼梯](./src/recursion_and_dynamic_programming/MinCostClimbingStairs.java)
 
 <span id="Greedy"></span>
 ## Greedy
