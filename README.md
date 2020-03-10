@@ -68,6 +68,7 @@ A project to record algorithm practice.
 * [打家劫舍](./src/recursion_and_dynamic_programming/HouseRobber.java)
 * [使用最小花费爬楼梯](./src/recursion_and_dynamic_programming/MinCostClimbingStairs.java)
 * [三步问题](./src/recursion_and_dynamic_programming/ThreeStepsProblemLCCI.java)
+* [连续数列](./src/recursion_and_dynamic_programming/ContiguousSequenceLCCI.java)
 
 <span id="Greedy"></span>
 ## Greedy
