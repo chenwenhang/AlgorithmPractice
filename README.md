@@ -71,6 +71,7 @@ A project to record algorithm practice.
 * [三步问题](./src/recursion_and_dynamic_programming/ThreeStepsProblemLCCI.java)
 * [连续数列](./src/recursion_and_dynamic_programming/ContiguousSequenceLCCI.java)
 * [最小路径和](./src/recursion_and_dynamic_programming/MinimumPathSum.java)
+* [按摩师](./src/recursion_and_dynamic_programming/TheMasseuseLCCI.java)
 
 <span id="Greedy"></span>
 ## Greedy
