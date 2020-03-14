@@ -72,6 +72,7 @@ A project to record algorithm practice.
 * [连续数列](./src/recursion_and_dynamic_programming/ContiguousSequenceLCCI.java)
 * [最小路径和](./src/recursion_and_dynamic_programming/MinimumPathSum.java)
 * [按摩师](./src/recursion_and_dynamic_programming/TheMasseuseLCCI.java)
+* [硬币](./src/recursion_and_dynamic_programming/CoinLCCI.java)
 
 <span id="Greedy"></span>
 ## Greedy
