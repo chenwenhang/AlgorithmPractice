@@ -22,6 +22,9 @@ package divide_and_conquer;
  * @Modified by:
  */
 public class CoinLCCI {
+    //    令 dp[i][j] 为遍历到当下这个硬币时，组成金额 j 的方法数目
+//    有两种可能性（1）当前这个硬币没有取，dp[i][j]=dp[i-1][j]；（2）当前这个硬币取了，dp[i][j]=dp[i][j-coins[i]]。最后的结果是两者的和
+//    将状态转移方程翻译成代码，并处理边界条件
     public int waysToChange(int n) {
         int[][] dp = new int[4][n + 1];
         int[] coins = {1, 5, 10, 25};
