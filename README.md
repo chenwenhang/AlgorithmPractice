@@ -73,6 +73,7 @@ A project to record algorithm practice.
 * [最小路径和](./src/recursion_and_dynamic_programming/MinimumPathSum.java)
 * [按摩师](./src/recursion_and_dynamic_programming/TheMasseuseLCCI.java)
 * [硬币](./src/recursion_and_dynamic_programming/CoinLCCI.java)
+* [剪绳子](./src/recursion_and_dynamic_programming/CutRopeLCOF.java)
 
 <span id="Greedy"></span>
 ## Greedy
