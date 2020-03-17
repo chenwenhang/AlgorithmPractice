@@ -1,4 +1,4 @@
-package divide_and_conquer;
+package recursion_and_dynamic_programming;
 
 /**
  * @Author: Wenhang Chen
