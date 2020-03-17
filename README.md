@@ -75,6 +75,7 @@ A project to record algorithm practice.
 * [硬币](./src/recursion_and_dynamic_programming/CoinLCCI.java)
 * [剪绳子](./src/recursion_and_dynamic_programming/CutRopeLCOF.java)
 * [最佳买卖股票时机含冷冻期](./src/recursion_and_dynamic_programming/BestTimetoBuyandSellStockwithCooldown.java)
+* [礼物的最大价值](./src/recursion_and_dynamic_programming/MaxValueOfPresent.java)
 
 <span id="Greedy"></span>
 ## Greedy
