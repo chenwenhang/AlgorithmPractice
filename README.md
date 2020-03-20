@@ -11,7 +11,8 @@ A project to record algorithm practice.
 * [Linked List](#LinkedList)
 * [Binary Tree](#BinaryTree)
 * [Other](#Other)
-* [Company](#Other)
+* [Company](#Company)
+* [SwordPointOffer](#SwordPointOffer)
 
 <span id="Notes"></span>
 ## ⭐ Notes ⭐
@@ -207,6 +208,8 @@ A project to record algorithm practice.
 * [组合总和](./src/company/CombinationSum.java)
 * [组合](./src/company/Combinations.java)
 
+<span id="SwordPointOffer"></span>
+* [数组中的重复数字](./src/SwordPointOffer/DuplicateNumbersInTheArray.java)
 
 
 
