@@ -211,6 +211,7 @@ A project to record algorithm practice.
 <span id="SwordPointOffer"></span>
 * [数组中的重复数字](./src/SwordPointOffer/DuplicateNumbersInTheArray.java)
 * [替换空格](./src/SwordPointOffer/ReplaceBlankSpace.java)
+* [机器人的运动范围](./src/SwordPointOffer/ActiveRangeOfRobot.java)
 
 
 
