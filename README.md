@@ -215,6 +215,7 @@ A project to record algorithm practice.
 * [二叉搜索树的后序遍历序列](./src/SwordPointOffer/SequentialTraversalOfBinarySearchTree.java)
 * [从尾到头打印链表](./src/SwordPointOffer/PrintLinkedListFromEndToHead.java)
 * [用两个栈实现队列](./src/SwordPointOffer/CQueue.java)
+* [字符串的排列](./src/SwordPointOffer/ArrangementOfStrings.java)
 
 
 
