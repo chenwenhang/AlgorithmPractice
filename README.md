@@ -217,6 +217,7 @@ A project to record algorithm practice.
 * [用两个栈实现队列](./src/SwordPointOffer/CQueue.java)
 * [字符串的排列](./src/SwordPointOffer/ArrangementOfStrings.java)
 * [打印从1到最大的n位数](./src/SwordPointOffer/PrintOneToMaxN.java)
+* [删除链表的节点](./src/SwordPointOffer/DeleteNodeInLinkedList.java)
 
 
 
