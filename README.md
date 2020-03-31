@@ -207,6 +207,7 @@ A project to record algorithm practice.
 * [键盘行](./src/company/KeyboardRow.java)
 * [组合总和](./src/company/CombinationSum.java)
 * [组合](./src/company/Combinations.java)
+* [农场小鸡的数目](./src/company/NumberOfChicken.java)
 
 <span id="SwordPointOffer"></span>
 * [数组中的重复数字](./src/SwordPointOffer/DuplicateNumbersInTheArray.java)
