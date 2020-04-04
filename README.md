@@ -11,6 +11,7 @@ A project to record algorithm practice.
 * [Linked List](#LinkedList)
 * [Binary Tree](#BinaryTree)
 * [Other](#Other)
+* [multithreading](#Multithreading)
 * [Company](#Company)
 * [SwordPointOffer](#SwordPointOffer)
 
@@ -185,6 +186,18 @@ A project to record algorithm practice.
 * [平方数之和](./src/other/SumOfSquareNumbers.java)
 * [最长回文串](./src/other/LongestPalindrome.java)
 * [七进制数](./src/other/Base7.java)
+
+<span id="Multithreading"></span>
+* [生产者消费者](./src/multithreading/BoundedBufferProblem.java)
+* [交替打印AB](./src/multithreading/AlternatePrintAB.java)
+* [交替打印FooBar](./src/multithreading/AlternatePrintFooBar.java)
+* [交替打印ABC(ReentrantLock)](./src/multithreading/AlternatePrintABCR.java)
+* [交替打印ABC(synchronized实现)](./src/multithreading/AlternatePrintABCS.java)
+* [按序打印](./src/multithreading/PrintInOrder.java)
+* [打印零与奇偶数](./src/multithreading/PrintZeroEvenOdd.java)
+* [老板等员工干活](./src/multithreading/BossWaitWorkers.java)
+* [十个线程求1到10000的和](./src/multithreading/OneTo10000.java)
+
 
 <span id="Company"></span>
 ## Company
