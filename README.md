@@ -198,6 +198,7 @@ A project to record algorithm practice.
 * [打印零与奇偶数](./src/multithreading/PrintZeroEvenOdd.java)
 * [老板等员工干活](./src/multithreading/BossWaitWorkers.java)
 * [十个线程求1到10000的和](./src/multithreading/OneTo10000.java)
+* [交替打印字符串](./src/multithreading/AlternatePrintString.java)
 
 
 <span id="Company"></span>
