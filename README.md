@@ -199,7 +199,7 @@ A project to record algorithm practice.
 * [老板等员工干活](./src/multithreading/BossWaitWorkers.java)
 * [十个线程求1到10000的和](./src/multithreading/OneTo10000.java)
 * [交替打印字符串](./src/multithreading/AlternatePrintString.java)
-
+* [HR和面试官](./src/multithreading/HRAndInterviewer.java)
 
 <span id="Company"></span>
 ## Company
@@ -223,6 +223,8 @@ A project to record algorithm practice.
 * [组合总和](./src/company/CombinationSum.java)
 * [组合](./src/company/Combinations.java)
 * [农场小鸡的数目](./src/company/NumberOfChicken.java)
+* [英雄打怪兽](./src/company/HeroesFightMonsters.java)
+* [病毒传播](./src/company/ViralTransmission.java)
 
 <span id="SwordPointOffer"></span>
 * [数组中的重复数字](./src/SwordPointOffer/DuplicateNumbersInTheArray.java)
