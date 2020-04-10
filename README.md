@@ -242,6 +242,7 @@ A project to record algorithm practice.
 * [两个链表的第一个公共节点](./src/SwordPointOffer/FirstCommonNodeOfTwoLinkedList.java)
 * [反转链表](./src/SwordPointOffer/ReverseLinkedList.java)
 * [调整数组顺序使奇数位于偶数前面](./src/SwordPointOffer/ChangeOrderOfMatrix.java)
+* [不用加减乘除做加法](./src/SwordPointOffer/OtherMethodToRealizeAdd.java)
 
 
 
