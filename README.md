@@ -226,6 +226,8 @@ A project to record algorithm practice.
 * [农场小鸡的数目](./src/company/NumberOfChicken.java)
 * [英雄打怪兽](./src/company/HeroesFightMonsters.java)
 * [病毒传播](./src/company/ViralTransmission.java)
+* [集合操作](./src/company/SetOperation.java)
+* [一刀999](./src/company/Sword999.java)
 
 <span id="SwordPointOffer"></span>
 * [数组中的重复数字](./src/SwordPointOffer/DuplicateNumbersInTheArray.java)
