@@ -246,6 +246,7 @@ A project to record algorithm practice.
 * [调整数组顺序使奇数位于偶数前面](./src/SwordPointOffer/ChangeOrderOfMatrix.java)
 * [不用加减乘除做加法](./src/SwordPointOffer/OtherMethodToRealizeAdd.java)
 * [和为s的连续正数序列](./src/SwordPointOffer/ContinuousPositiveSequenceSumEqualTos.java)
+* [最长不含重复字符的子字符串](./src/SwordPointOffer/LongestSubstringWithoutDuplicateCharacters.java)
 
 
 
