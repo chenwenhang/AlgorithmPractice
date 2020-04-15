@@ -248,6 +248,7 @@ A project to record algorithm practice.
 * [和为s的连续正数序列](./src/SwordPointOffer/ContinuousPositiveSequenceSumEqualTos.java)
 * [最长不含重复字符的子字符串](./src/SwordPointOffer/LongestSubstringWithoutDuplicateCharacters.java)
 * [把数字翻译成字符串](./src/SwordPointOffer/TranslateNumbersIntoStrings.java)
+* [求1+2+…+n](./src/SwordPointOffer/AddOneToN.java)
 
 
 
