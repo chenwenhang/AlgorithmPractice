@@ -228,6 +228,7 @@ A project to record algorithm practice.
 * [病毒传播](./src/company/ViralTransmission.java)
 * [集合操作](./src/company/SetOperation.java)
 * [一刀999](./src/company/Sword999.java)
+* [最多投票](./src/company/MostVote.java)
 
 <span id="SwordPointOffer"></span>
 * [数组中的重复数字](./src/SwordPointOffer/DuplicateNumbersInTheArray.java)
