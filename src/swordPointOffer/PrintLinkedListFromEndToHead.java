@@ -1,4 +1,4 @@
-package SwordPointOffer;
+package swordPointOffer;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package SwordPointOffer;
+package swordPointOffer;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package SwordPointOffer;
+package swordPointOffer;
 
 /**
  * @Author: Wenhang Chen
