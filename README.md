@@ -80,6 +80,8 @@ A project to record algorithm practice.
 * [礼物的最大价值](./src/recursion_and_dynamic_programming/MaxValueOfPresent.java)
 * [一次编辑](./src/recursion_and_dynamic_programming/OneAwayLCCI.java)
 * [2出现的次数](./src/recursion_and_dynamic_programming/NumberOf2sInRangeLCCI.java)
+* [最长公共子序列](src/recursion_and_dynamic_programming/LongestCommonSeq.java)
+
 
 <span id="Greedy"></span>
 ## Greedy
