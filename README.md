@@ -76,6 +76,7 @@ A project to record algorithm practice.
 * [按摩师](./src/recursion_and_dynamic_programming/TheMasseuseLCCI.java)
 * [硬币](./src/recursion_and_dynamic_programming/CoinLCCI.java)
 * [剪绳子](./src/recursion_and_dynamic_programming/CutRopeLCOF.java)
+* [剪绳子II](./src/recursion_and_dynamic_programming/CutRopeLCOFII.java)
 * [最佳买卖股票时机含冷冻期](./src/recursion_and_dynamic_programming/BestTimetoBuyandSellStockwithCooldown.java)
 * [礼物的最大价值](./src/recursion_and_dynamic_programming/MaxValueOfPresent.java)
 * [一次编辑](./src/recursion_and_dynamic_programming/OneAwayLCCI.java)
