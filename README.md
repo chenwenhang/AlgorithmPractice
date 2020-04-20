@@ -254,6 +254,7 @@ A project to record algorithm practice.
 * [把数字翻译成字符串](src/swordPointOffer/TranslateNumbersIntoStrings.java)
 * [求1+2+…+n](src/swordPointOffer/AddOneToN.java)
 * [数字序列中某一位的数字](src/swordPointOffer/OneBitInNumSeq.java)
+* [n个筛子的点数](src/swordPointOffer/TheNumberOfNsieves.java)
 
 
 
