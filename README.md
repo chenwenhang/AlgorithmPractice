@@ -255,6 +255,7 @@ A project to record algorithm practice.
 * [求1+2+…+n](src/swordPointOffer/AddOneToN.java)
 * [数字序列中某一位的数字](src/swordPointOffer/OneBitInNumSeq.java)
 * [n个筛子的点数](src/swordPointOffer/TheNumberOfNsieves.java)
+* [数值的整数次方](src/swordPointOffer/IntegerPowOfNumber.java)
 
 
 
