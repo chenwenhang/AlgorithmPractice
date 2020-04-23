@@ -13,7 +13,7 @@ A project to record algorithm practice.
 * [Other](#Other)
 * [multithreading](#Multithreading)
 * [Company](#Company)
-* [swordPointOffer](#SwordPointOffer)
+* [Book](#Book)
 
 <span id="Notes"></span>
 ## ⭐ Notes ⭐
@@ -233,7 +233,8 @@ A project to record algorithm practice.
 * [一刀999](./src/company/Sword999.java)
 * [最多投票](./src/company/MostVote.java)
 
-<span id="SwordPointOffer"></span>
+<span id="Book"></span>
+## Book
 * [数组中的重复数字](src/swordPointOffer/DuplicateNumbersInTheArray.java)
 * [替换空格](src/swordPointOffer/ReplaceBlankSpace.java)
 * [机器人的运动范围](src/swordPointOffer/ActiveRangeOfRobot.java)
@@ -257,6 +258,7 @@ A project to record algorithm practice.
 * [n个筛子的点数](src/swordPointOffer/TheNumberOfNsieves.java)
 * [数值的整数次方](src/swordPointOffer/IntegerPowOfNumber.java)
 * [数组中数字出现的次数](src/swordPointOffer/CountOfNumInArray.java)
+* [翻转数位](src/swordPointOffer/Flipdigital.java)
 
 
 
