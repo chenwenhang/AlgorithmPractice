@@ -260,6 +260,7 @@ A project to record algorithm practice.
 * [数组中数字出现的次数](src/swordPointOffer/CountOfNumInArray.java)
 * [翻转数位](src/swordPointOffer/Flipdigital.java)
 * [不用加号的加法](src/swordPointOffer/AddWithoutPlus.java)
+* [最小差](src/swordPointOffer/MinGap.java)
 
 
 
