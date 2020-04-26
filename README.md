@@ -261,6 +261,7 @@ A project to record algorithm practice.
 * [翻转数位](src/swordPointOffer/Flipdigital.java)
 * [不用加号的加法](src/swordPointOffer/AddWithoutPlus.java)
 * [最小差](src/swordPointOffer/MinGap.java)
+* [变位词组](src/swordPointOffer/BitChangeWord.java)
 
 
 
