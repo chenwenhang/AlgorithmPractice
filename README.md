@@ -262,6 +262,7 @@ A project to record algorithm practice.
 * [不用加号的加法](src/swordPointOffer/AddWithoutPlus.java)
 * [最小差](src/swordPointOffer/MinGap.java)
 * [变位词组](src/swordPointOffer/BitChangeWord.java)
+* [最短超串](src/swordPointOffer/ShortestSuperString.java)
 
 
 
