@@ -263,6 +263,7 @@ A project to record algorithm practice.
 * [最小差](src/swordPointOffer/MinGap.java)
 * [变位词组](src/swordPointOffer/BitChangeWord.java)
 * [最短超串](src/swordPointOffer/ShortestSuperString.java)
+* [下一个数](src/swordPointOffer/NextNum.java)
 
 
 
