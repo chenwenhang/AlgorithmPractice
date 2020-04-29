@@ -264,6 +264,7 @@ A project to record algorithm practice.
 * [变位词组](src/swordPointOffer/BitChangeWord.java)
 * [最短超串](src/swordPointOffer/ShortestSuperString.java)
 * [下一个数](src/swordPointOffer/NextNum.java)
+* [部分排序](src/swordPointOffer/PartSort.java)
 
 
 
