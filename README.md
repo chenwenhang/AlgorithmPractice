@@ -265,6 +265,7 @@ A project to record algorithm practice.
 * [最短超串](src/swordPointOffer/ShortestSuperString.java)
 * [下一个数](src/swordPointOffer/NextNum.java)
 * [部分排序](src/swordPointOffer/PartSort.java)
+* [滑动窗口的最大值](src/swordPointOffer/MaxValueOfSlidingWindow.java)
 
 
 
