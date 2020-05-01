@@ -266,6 +266,7 @@ A project to record algorithm practice.
 * [下一个数](src/swordPointOffer/NextNum.java)
 * [部分排序](src/swordPointOffer/PartSort.java)
 * [滑动窗口的最大值](src/swordPointOffer/MaxValueOfSlidingWindow.java)
+* [阶乘尾数](src/swordPointOffer/FactorialMantissa.java)
 
 
 
