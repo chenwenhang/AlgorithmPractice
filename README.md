@@ -269,6 +269,7 @@ A project to record algorithm practice.
 * [阶乘尾数](src/swordPointOffer/FactorialMantissa.java)
 * [奇数值单元格的数目](src/swordPointOffer/NumberOfOddaluedCells.java)
 * [自除数](src/swordPointOffer/SelfDivisor.java)
+* [峰与谷](src/swordPointOffer/PeaksAndValleys.java)
 
 
 
