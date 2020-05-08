@@ -3,6 +3,7 @@ A project to record algorithm practice.
 
 ## Contents 
 * [Notes](#Notes)
+* [Special algorithm](#SpecialAlgorithm)
 * [Stack and Queue](#StackAndQueue)
 * [Divide and Conquer](#DivideAndConquer)
 * [Recursion and Dynamic Programming](#RecursionAndDynamicProgramming)
@@ -22,6 +23,10 @@ A project to record algorithm practice.
 * [递归和动态规划笔记](./src/notes/RecursionAndDynamicProgramming.md)
 * [HashMap笔记](./src/notes/HashMapNote.md)
 * [字符串处理笔记](./src/notes/StringAndStringBuilder.md)
+
+<span id="SpecialAlgorithm"></span>
+## Special algorithm
+* [A*算法](./src/special/planpath.py)
 
 <span id="StackAndQueue"></span>
 ## Stack and Queue
