@@ -280,6 +280,7 @@ A project to record algorithm practice.
 * [返回倒数第 k 个节点](src/swordPointOffer/ReturnsThePenultimateKthNode.java)
 * [链表求和](src/swordPointOffer/LinkedListSummation.java)
 * [字符串压缩](src/swordPointOffer/StringCompression.java)
+* [左旋转字符串](src/swordPointOffer/LeftRotateString.java)
 
 
 
