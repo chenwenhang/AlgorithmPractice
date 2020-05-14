@@ -131,6 +131,7 @@ A project to record algorithm practice.
 * [柠檬水找零](./src/array_and_matrix/LemonadeChange.java)
 * [数组的度](./src/array_and_matrix/DegreeOfAnArray.java)
 * [最长连续递增序列](./src/array_and_matrix/LongestContinuousIncreasingSubsequence.java)
+* [统计有序矩阵中的负数](src/array_and_matrix/NegativeNumbersInOrderedMatrices.java)
 
 <span id="LinkedList"></span>
 ## Linked List
