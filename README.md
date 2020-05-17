@@ -132,6 +132,7 @@ A project to record algorithm practice.
 * [数组的度](./src/array_and_matrix/DegreeOfAnArray.java)
 * [最长连续递增序列](./src/array_and_matrix/LongestContinuousIncreasingSubsequence.java)
 * [统计有序矩阵中的负数](src/array_and_matrix/NegativeNumbersInOrderedMatrices.java)
+* [移动石子直到连续](src/array_and_matrix/MoveStone.java)
 
 <span id="LinkedList"></span>
 ## Linked List
@@ -188,14 +189,14 @@ A project to record algorithm practice.
 * [Pow(x, n)](src/other/PowOfXN.java)
 * [位1的个数](src/other/NumberOf1Bits.java)
 * [验证回文串](src/other/ValidPalindrome.java)
-* [计数质数](./src/other/CountPrimes.java)
-* [阶乘后的零](./src/other/FactorialTrailingZeroes.java)
-* [宝石和石头](./src/other/JewelsAndStones.java)
-* [6 和 9 组成的最大数字](./src/other/Maximum69Number.java)
-* [单词规律](./src/other/WordPattern.java)
-* [平方数之和](./src/other/SumOfSquareNumbers.java)
-* [最长回文串](./src/other/LongestPalindrome.java)
-* [七进制数](./src/other/Base7.java)
+* [计数质数](src/other/CountPrimes.java)
+* [阶乘后的零](src/other/FactorialTrailingZeroes.java)
+* [宝石和石头](src/other/JewelsAndStones.java)
+* [6 和 9 组成的最大数字](src/other/Maximum69Number.java)
+* [单词规律](src/other/WordPattern.java)
+* [平方数之和](src/other/SumOfSquareNumbers.java)
+* [最长回文串](src/other/LongestPalindrome.java)
+* [七进制数](src/other/Base7.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
