@@ -284,6 +284,7 @@ A project to record algorithm practice.
 * [链表求和](src/swordPointOffer/LinkedListSummation.java)
 * [字符串压缩](src/swordPointOffer/StringCompression.java)
 * [左旋转字符串](src/swordPointOffer/LeftRotateString.java)
+* [主要元素](src/swordPointOffer/MainElement.java)
 
 
 
