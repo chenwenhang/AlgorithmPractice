@@ -199,6 +199,7 @@ A project to record algorithm practice.
 * [平方数之和](src/other/SumOfSquareNumbers.java)
 * [最长回文串](src/other/LongestPalindrome.java)
 * [七进制数](src/other/Base7.java)
+* [计算日期差](src/other/SecondGap.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
