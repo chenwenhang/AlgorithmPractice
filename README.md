@@ -134,6 +134,7 @@ A project to record algorithm practice.
 * [统计有序矩阵中的负数](src/array_and_matrix/NegativeNumbersInOrderedMatrices.java)
 * [移动石子直到连续](src/array_and_matrix/MoveStone.java)
 * [子数组最大平均数 I](src/array_and_matrix/MaximumAverageNumberOfSubarrays.java)
+* [找到小镇的法官](src/array_and_matrix/TheJudgeWhoFoundTheTown.java)
 
 
 <span id="LinkedList"></span>
