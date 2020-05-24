@@ -135,6 +135,7 @@ A project to record algorithm practice.
 * [移动石子直到连续](src/array_and_matrix/MoveStone.java)
 * [子数组最大平均数 I](src/array_and_matrix/MaximumAverageNumberOfSubarrays.java)
 * [找到小镇的法官](src/array_and_matrix/TheJudgeWhoFoundTheTown.java)
+* [非递减数列](src/array_and_matrix/NonDecreasingSequence.java)
 
 
 <span id="LinkedList"></span>
