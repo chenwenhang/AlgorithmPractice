@@ -204,6 +204,7 @@ A project to record algorithm practice.
 * [计算日期差](src/other/SecondGap.java)
 * [十进制整数的反码](src/other/InverseOfDecimalInteger.java)
 * [有效电话号码](src/other/ValidPhoneNumber.java)
+* [长按键入](src/other/LongPress.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
