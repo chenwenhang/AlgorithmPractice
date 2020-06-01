@@ -136,6 +136,7 @@ A project to record algorithm practice.
 * [子数组最大平均数 I](src/array_and_matrix/MaximumAverageNumberOfSubarrays.java)
 * [找到小镇的法官](src/array_and_matrix/TheJudgeWhoFoundTheTown.java)
 * [非递减数列](src/array_and_matrix/NonDecreasingSequence.java)
+* [最大连续1的个数](src/array_and_matrix/MaximumCountOfConsecutiveOnes.java)
 
 
 <span id="LinkedList"></span>
