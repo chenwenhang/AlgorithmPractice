@@ -138,6 +138,7 @@ A project to record algorithm practice.
 * [非递减数列](src/array_and_matrix/NonDecreasingSequence.java)
 * [最大连续1的个数](src/array_and_matrix/MaximumCountOfConsecutiveOnes.java)
 * [统计最大组的数目](src/array_and_matrix/CountNumberOfThelargestGroups.java)
+* [最小绝对差](src/array_and_matrix/MinimumAbsoluteDifference.java)
 
 
 <span id="LinkedList"></span>
