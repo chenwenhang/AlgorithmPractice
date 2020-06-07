@@ -141,6 +141,7 @@ A project to record algorithm practice.
 * [最小绝对差](src/array_and_matrix/MinimumAbsoluteDifference.java)
 * [供暖器](src/array_and_matrix/Heater.java)
 * [较大分组的位置](src/array_and_matrix/LocationOfLargerGroupings.java)
+* [下一个更大元素 I](src/array_and_matrix/NextLargerElement.java)
 
 
 <span id="LinkedList"></span>
