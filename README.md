@@ -213,6 +213,7 @@ A project to record algorithm practice.
 * [有效电话号码](src/other/ValidPhoneNumber.java)
 * [长按键入](src/other/LongPress.java)
 * [仅仅反转字母](src/other/OnlyReverseLetter.java)
+* [二进制间距](src/other/BinaryDistance.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
