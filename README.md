@@ -214,6 +214,7 @@ A project to record algorithm practice.
 * [长按键入](src/other/LongPress.java)
 * [仅仅反转字母](src/other/OnlyReverseLetter.java)
 * [二进制间距](src/other/BinaryDistance.java)
+* [字符串中的单词数](src/other/WordsCountInString.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
