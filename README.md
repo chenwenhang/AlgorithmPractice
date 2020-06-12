@@ -143,6 +143,7 @@ A project to record algorithm practice.
 * [较大分组的位置](src/array_and_matrix/LocationOfLargerGroupings.java)
 * [下一个更大元素 I](src/array_and_matrix/NextLargerElement.java)
 * [最后一块石头的重量](src/array_and_matrix/TheWeightOfTheLastStone.java)
+* [字典序排数](src/array_and_matrix/DictionaryOrderNumber.java)
 
 
 <span id="LinkedList"></span>
