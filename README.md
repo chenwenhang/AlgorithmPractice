@@ -218,6 +218,7 @@ A project to record algorithm practice.
 * [二进制间距](src/other/BinaryDistance.java)
 * [字符串中的单词数](src/other/WordsCountInString.java)
 * [复数乘法](src/other/ComplexMultiplication.java)
+* [重复的子字符串](src/other/DuplicateSubstring.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
