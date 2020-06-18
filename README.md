@@ -221,6 +221,7 @@ A project to record algorithm practice.
 * [复数乘法](src/other/ComplexMultiplication.java)
 * [重复的子字符串](src/other/DuplicateSubstring.java)
 * [密钥格式化](src/other/KeyFormat.java)
+* [4的幂](src/other/PowerOf4.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
