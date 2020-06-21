@@ -87,6 +87,7 @@ A project to record algorithm practice.
 * [一次编辑](./src/recursion_and_dynamic_programming/OneAwayLCCI.java)
 * [2出现的次数](./src/recursion_and_dynamic_programming/NumberOf2sInRangeLCCI.java)
 * [最长公共子序列](src/recursion_and_dynamic_programming/LongestCommonSeq.java)
+* [等差数列划分](src/recursion_and_dynamic_programming/DivisionOfArithmeticProgression.java)
 
 
 <span id="Greedy"></span>
