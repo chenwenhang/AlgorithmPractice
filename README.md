@@ -149,6 +149,7 @@ A project to record algorithm practice.
 * [错误的集合](src/array_and_matrix/ErrorSet.java)
 * [只出现一次的数字 II](src/array_and_matrix/OnceNumberII.java)
 * [朋友圈](src/array_and_matrix/FriendCircle.java)
+* [有效的山脉数组](src/array_and_matrix/ValidMountainArray.java)
 
 
 <span id="LinkedList"></span>
