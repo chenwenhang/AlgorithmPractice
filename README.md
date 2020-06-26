@@ -151,6 +151,7 @@ A project to record algorithm practice.
 * [只出现一次的数字 II](src/array_and_matrix/OnceNumberII.java)
 * [朋友圈](src/array_and_matrix/FriendCircle.java)
 * [有效的山脉数组](src/array_and_matrix/ValidMountainArray.java)
+* [三个数的最大乘积](src/array_and_matrix/MaxProductOfThreeNumbers.java)
 
 
 <span id="LinkedList"></span>
