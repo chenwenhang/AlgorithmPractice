@@ -229,6 +229,7 @@ A project to record algorithm practice.
 * [密钥格式化](src/other/KeyFormat.java)
 * [4的幂](src/other/PowerOf4.java)
 * [镜面反射](src/other/SpecularReflection.java)
+* [学生出勤记录 I](src/other/StudentAttendanceRecordI.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
