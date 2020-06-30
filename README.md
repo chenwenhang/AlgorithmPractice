@@ -154,6 +154,7 @@ A project to record algorithm practice.
 * [三个数的最大乘积](src/array_and_matrix/MaxProductOfThreeNumbers.java)
 * [不同整数的最少数目](src/array_and_matrix/MinNumOfDifferentIntegers.java)
 * [每日温度](src/array_and_matrix/DailyTemperature.java)
+* [两句话中的不常见单词](src/array_and_matrix/UnusualWordsInTwoSentences.java)
 
 
 <span id="LinkedList"></span>
