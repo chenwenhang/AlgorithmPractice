@@ -155,6 +155,7 @@ A project to record algorithm practice.
 * [不同整数的最少数目](src/array_and_matrix/MinNumOfDifferentIntegers.java)
 * [每日温度](src/array_and_matrix/DailyTemperature.java)
 * [两句话中的不常见单词](src/array_and_matrix/UnusualWordsInTwoSentences.java)
+* [文件的最长绝对路径](src/array_and_matrix/MaxPathLengthOfFile.java)
 
 
 <span id="LinkedList"></span>
