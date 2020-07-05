@@ -89,6 +89,7 @@ A project to record algorithm practice.
 * [最长公共子序列](src/recursion_and_dynamic_programming/LongestCommonSeq.java)
 * [等差数列划分](src/recursion_and_dynamic_programming/DivisionOfArithmeticProgression.java)
 * [最小基因变化](src/recursion_and_dynamic_programming/MinGeneChange.java)
+* [超级次方](src/recursion_and_dynamic_programming/SuperPower.java)
 
 
 <span id="Greedy"></span>
