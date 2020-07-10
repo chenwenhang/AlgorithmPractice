@@ -90,6 +90,7 @@ A project to record algorithm practice.
 * [等差数列划分](src/recursion_and_dynamic_programming/DivisionOfArithmeticProgression.java)
 * [最小基因变化](src/recursion_and_dynamic_programming/MinGeneChange.java)
 * [超级次方](src/recursion_and_dynamic_programming/SuperPower.java)
+* [目标和](src/recursion_and_dynamic_programming/SumOfTargets.java)
 
 
 <span id="Greedy"></span>
