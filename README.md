@@ -160,6 +160,7 @@ A project to record algorithm practice.
 * [文件的最长绝对路径](src/array_and_matrix/MaxPathLengthOfFile.java)
 * [课程安排 IV](src/array_and_matrix/CourseArrangementIV.java)
 * [网络延迟时间](src/array_and_matrix/NetworkDelayTime.java)
+* [逐步求和得到正数的最小值](src/array_and_matrix/GraduallySum.java)
 
 
 <span id="LinkedList"></span>
