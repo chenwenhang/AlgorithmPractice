@@ -241,6 +241,7 @@ A project to record algorithm practice.
 * [学生出勤记录 I](src/other/StudentAttendanceRecordI.java)
 * [验证外星语词典](src/other/VerifyTheAlienDictionary.java)
 * [比较版本号](src/other/CompareVersionNumbers.java)
+* [给定数字能组成的最大时间](src/other/LargestTimeForGivenDigits.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
