@@ -161,6 +161,7 @@ A project to record algorithm practice.
 * [课程安排 IV](src/array_and_matrix/CourseArrangementIV.java)
 * [网络延迟时间](src/array_and_matrix/NetworkDelayTime.java)
 * [逐步求和得到正数的最小值](src/array_and_matrix/GraduallySum.java)
+* [比特位计数](src/array_and_matrix/CountingBits.java)
 
 
 <span id="LinkedList"></span>
