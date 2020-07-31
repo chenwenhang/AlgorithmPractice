@@ -91,6 +91,7 @@ A project to record algorithm practice.
 * [最小基因变化](src/recursion_and_dynamic_programming/MinGeneChange.java)
 * [超级次方](src/recursion_and_dynamic_programming/SuperPower.java)
 * [目标和](src/recursion_and_dynamic_programming/SumOfTargets.java)
+* [所有可能的路径](src/recursion_and_dynamic_programming/AllPossiblePaths.java)
 
 
 <span id="Greedy"></span>
