@@ -164,6 +164,7 @@ A project to record algorithm practice.
 * [逐步求和得到正数的最小值](src/array_and_matrix/GraduallySum.java)
 * [比特位计数](src/array_and_matrix/CountingBits.java)
 * [卡牌分组](src/array_and_matrix/CardGroup.java)
+* [甲板上的战舰](src/array_and_matrix/BattleshipOnDeck.java)
 
 
 <span id="LinkedList"></span>
