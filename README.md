@@ -246,6 +246,7 @@ A project to record algorithm practice.
 * [验证外星语词典](src/other/VerifyTheAlienDictionary.java)
 * [比较版本号](src/other/CompareVersionNumbers.java)
 * [给定数字能组成的最大时间](src/other/LargestTimeForGivenDigits.java)
+* [判断路径是否相交](src/other/JudgingWhetherThePathsIntersect.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
