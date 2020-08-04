@@ -248,6 +248,7 @@ A project to record algorithm practice.
 * [给定数字能组成的最大时间](src/other/LargestTimeForGivenDigits.java)
 * [判断路径是否相交](src/other/JudgingWhetherThePathsIntersect.java)
 * [使括号有效的最少添加](src/other/MinimumAdditionToMakeParenthesesValid.java)
+* [字母大小写全排列](src/other/AllLettersAreArrangedInCase.java)
 
 <span id="Multithreading"></span>
 ## Multithreading
