@@ -165,6 +165,7 @@ A project to record algorithm practice.
 * [比特位计数](src/array_and_matrix/CountingBits.java)
 * [卡牌分组](src/array_and_matrix/CardGroup.java)
 * [甲板上的战舰](src/array_and_matrix/BattleshipOnDeck.java)
+* [员工的重要性](src/array_and_matrix/ImportanceOfEmployees.java)
 
 
 <span id="LinkedList"></span>
