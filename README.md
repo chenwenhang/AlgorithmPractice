@@ -3,6 +3,7 @@ A project to record algorithm practice.
 
 ## Contents 
 * [Notes](#Notes)
+* [Google Kick Start](#GoogleKickStart)
 * [Special algorithm](#SpecialAlgorithm)
 * [Stack and Queue](#StackAndQueue)
 * [Divide and Conquer](#DivideAndConquer)
@@ -23,6 +24,10 @@ A project to record algorithm practice.
 * [递归和动态规划笔记](./src/notes/RecursionAndDynamicProgramming.md)
 * [HashMap笔记](./src/notes/HashMapNote.md)
 * [字符串处理笔记](./src/notes/StringAndStringBuilder.md)
+
+<span id="GoogleKickStart"></span>
+## Google Kick Start
+* [2020-Round-A-Allocation](./src/google_kick_start/2020_round_A_allocation.py)
 
 <span id="SpecialAlgorithm"></span>
 ## Special algorithm
