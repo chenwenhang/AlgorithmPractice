@@ -28,6 +28,7 @@ A project to record algorithm practice.
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
 * [2020-Round-A-Allocation](./src/google_kick_start/2020_round_A_allocation.py)
+* [2020-Round-A-Plates](./src/google_kick_start/2020_round_A_plates.py)
 
 <span id="SpecialAlgorithm"></span>
 ## Special algorithm
