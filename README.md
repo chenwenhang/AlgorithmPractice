@@ -31,6 +31,7 @@ A project to record algorithm practice.
 * [2020-Round-A-Plates](./src/google_kick_start/2020_round_A_plates.py)
 * [2020-Round-A-Workout](./src/google_kick_start/2020_round_A_workout.py)
 * [2020-Round-A-Bundling](./src/google_kick_start/2020_round_A_bundling.py)
+* [2020-Round-B-Bike Tour](./src/google_kick_start/2020_round_B_bike_tour.py)
 
 <span id="SpecialAlgorithm"></span>
 ## Special algorithm
