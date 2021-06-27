@@ -34,6 +34,8 @@ A project to record algorithm practice.
 * [2020-Round-B-Bike Tour](./src/google_kick_start/2020_round_B_bike_tour.py)
 * [2020-Round-B-Bus Routes](./src/google_kick_start/2020_round_B_bus_routes.py)
 * [2020-Round-B-Robot Path Decoding](./src/google_kick_start/2020_round_B_robot_path_decoding.py)
+* [2020-Round-B-Wandering Robot](./src/google_kick_start/2020_round_B_wandering_robot.py)
+* [2020-Round-C-countdown](./src/google_kick_start/2020_round_C_countdown.py)
 
 <span id="SpecialAlgorithm"></span>
 ## Special algorithm
@@ -103,7 +105,7 @@ A project to record algorithm practice.
 * [超级次方](src/recursion_and_dynamic_programming/SuperPower.java)
 * [目标和](src/recursion_and_dynamic_programming/SumOfTargets.java)
 * [所有可能的路径](src/recursion_and_dynamic_programming/AllPossiblePaths.java)
-
+* [Snakes and Ladders](src/recursion_and_dynamic_programming/snakes_and_ladders.py)
 
 <span id="Greedy"></span>
 ## Greedy
