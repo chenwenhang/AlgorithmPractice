@@ -50,6 +50,8 @@ A project to record algorithm practice.
 * [用一个栈实现另一个栈的排序](./src/stack_and_queue/SortStackByStack.java)
 * [生成窗口最大值数组](./src/stack_and_queue/MaxWindow.java)
 * [最小栈](./src/stack_and_queue/MinStack.java)
+* [Snakes and Ladders](src/stack_and_queue/snakes_and_ladders.py)
+* [公交路线](src/stack_and_queue/bus_routes.py)
 
 <span id="DivideAndConquer"></span>
 ## Divide and Conquer
@@ -105,7 +107,6 @@ A project to record algorithm practice.
 * [超级次方](src/recursion_and_dynamic_programming/SuperPower.java)
 * [目标和](src/recursion_and_dynamic_programming/SumOfTargets.java)
 * [所有可能的路径](src/recursion_and_dynamic_programming/AllPossiblePaths.java)
-* [Snakes and Ladders](src/recursion_and_dynamic_programming/snakes_and_ladders.py)
 
 <span id="Greedy"></span>
 ## Greedy
