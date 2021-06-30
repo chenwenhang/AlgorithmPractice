@@ -51,7 +51,7 @@ class Solution:
         stops = {source}
         while q:
             pos, cost = q.popleft()
-            if pos == target:
+            if pos ==  target:
                 return cost
             # 重点：只统计未经过的路线和车站，运用差集
             # 当前车站尚未探查的路线
