@@ -33,6 +33,8 @@ A project to record algorithm practice.
 * [6. Z 字形变换](./src/leetcode/zigzag_conversion.py)
 * [8. 字符串转换整数 (atoi)](./src/leetcode/string_to_integer_atoi.py)
 * [11. 盛最多水的容器](./src/leetcode/container_with_most_water.py)
+* [12. 整数转罗马数字](./src/leetcode/integer_to_roman.py)
+* [15. 三数之和](./src/leetcode/3_sum.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
