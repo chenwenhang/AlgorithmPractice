@@ -29,8 +29,10 @@ A project to record algorithm practice.
 <span id="LeetcodeRewrite"></span>
 * [2. 两数相加](./src/leetcode/add_two_numbers.py)
 * [3. 无重复字符的最长子串](./src/leetcode/longest_substring_without_repeating_characters.py)
-* [3. 无重复字符的最长子串](./src/leetcode/longest_substring_without_repeating_characters.py)
 * [5. 最长回文子串](./src/leetcode/longest_palindromic_substring.py)
+* [6. Z 字形变换](./src/leetcode/zigzag_conversion.py)
+* [8. 字符串转换整数 (atoi)](./src/leetcode/string_to_integer_atoi.py)
+* [11. 盛最多水的容器](./src/leetcode/container_with_most_water.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
