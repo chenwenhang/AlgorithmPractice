@@ -35,6 +35,11 @@ A project to record algorithm practice.
 * [11. 盛最多水的容器](./src/leetcode/container_with_most_water.py)
 * [12. 整数转罗马数字](./src/leetcode/integer_to_roman.py)
 * [15. 三数之和](./src/leetcode/3_sum.py)
+* [16. 最接近的三数之和](./src/leetcode/3_sum_losest.py)
+* [17. 电话号码的字母组合](./src/leetcode/letter_combinations_of_a_phone_number.py)
+* [19. 删除链表的倒数第 N 个结点](./src/leetcode/remove_nth_node_from_end_of_list.py)
+* [22. 括号生成](./src/leetcode/generate_parentheses.py)
+* [面试题 01.05. 一次编辑](./src/leetcode/one_away_lCCI.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
