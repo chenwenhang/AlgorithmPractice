@@ -40,6 +40,10 @@ A project to record algorithm practice.
 * [19. 删除链表的倒数第 N 个结点](./src/leetcode/remove_nth_node_from_end_of_list.py)
 * [22. 括号生成](./src/leetcode/generate_parentheses.py)
 * [面试题 01.05. 一次编辑](./src/leetcode/one_away_lCCI.py)
+* [面试题 01.07. 旋转矩阵](./src/leetcode/rotate_matrix_LCCI.py)
+* [面试题 01.08. 零矩阵](./src/leetcode/zero_matrix_LCCI.py)
+* [面试题 02.04. 分割链表](./src/leetcode/partition_list_LCCI.py)
+* [面试题 04.01. 节点间通路](./src/leetcode/route_between_nodes_LCCI.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
