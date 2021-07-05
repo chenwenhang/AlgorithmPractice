@@ -10,6 +10,7 @@ class TreeNode:
         self.right = None
 
 
+# 傻方法，存储范围
 class Solution:
     # 二叉搜索树是一种节点值之间具有一定数量级次序的二叉树，对于树中每个节点：
     # 若其左子树存在，则其左子树中每个节点的值都不大于该节点值；
@@ -42,3 +43,26 @@ class Solution:
             flag = f1 and f2 and max_val_1 < node.val < min_val_2
             print("node:{}, max:{}, min:{}, flag:{}".format(node.val, min_val_1, max_val_2, flag))
             return max_val_2, min_val_1, flag
+
+
+# 好点的：中序遍历二叉树
+class Solution2:
+    def __init__(self):
+        self.pre = -float('inf')
+
+    def isValidBST(self, root: TreeNode) -> bool:
+        if not root:
+            return True
+        return self.inorder_traversal(root)
+
+    def inorder_traversal(self, node: TreeNode) -> bool:
+        f1, f2 = True, True
+        if node.left:
+            f1 = self.inorder_traversal(node.left)
+        if node.val <= self.pre:
+            return False
+        else:
+            self.pre = node.val
+        if node.right:
+            f2 = self.inorder_traversal(node.right)
+        return f1 and f2
