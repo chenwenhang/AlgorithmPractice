@@ -44,6 +44,8 @@ A project to record algorithm practice.
 * [面试题 01.08. 零矩阵](./src/leetcode/zero_matrix_LCCI.py)
 * [面试题 02.04. 分割链表](./src/leetcode/partition_list_LCCI.py)
 * [面试题 04.01. 节点间通路](./src/leetcode/route_between_nodes_LCCI.py)
+* [面试题 04.03. 特定深度节点链表](./src/leetcode/list_of_depth_LCCI.py)
+* [面试题 04.05. 合法二叉搜索树](./src/leetcode/legal_binary_search_tree_LCCI.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
