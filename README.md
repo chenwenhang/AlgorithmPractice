@@ -46,6 +46,10 @@ A project to record algorithm practice.
 * [面试题 04.01. 节点间通路](./src/leetcode/route_between_nodes_LCCI.py)
 * [面试题 04.03. 特定深度节点链表](./src/leetcode/list_of_depth_LCCI.py)
 * [面试题 04.05. 合法二叉搜索树](./src/leetcode/legal_binary_search_tree_LCCI.py)
+* [面试题 04.06. 后继者](./src/leetcode/successor_LCCI.py)
+* [面试题 04.08. 首个共同祖先](./src/leetcode/first_common_ancestor_LCCI.py)
+* [面试题 04.10. 检查子树](./src/leetcode/check_subTree_LCCI.py)
+* [面试题 04.12. 求和路径](./src/leetcode/paths_with_sum_LCCI.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
