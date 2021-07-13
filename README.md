@@ -50,6 +50,8 @@ A project to record algorithm practice.
 * [面试题 04.08. 首个共同祖先](./src/leetcode/first_common_ancestor_LCCI.py)
 * [面试题 04.10. 检查子树](./src/leetcode/check_subTree_LCCI.py)
 * [面试题 04.12. 求和路径](./src/leetcode/paths_with_sum_LCCI.py)
+* [面试题 08.02. 迷路的机器人](./src/leetcode/robot_in_a_grid_LCCI.py)
+* [面试题 08.04. 幂集](./src/leetcode/power_set_LCCI.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
