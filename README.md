@@ -54,6 +54,8 @@ A project to record algorithm practice.
 * [面试题 08.04. 幂集](./src/leetcode/power_set_LCCI.py)
 * [面试题 08.05. 递归乘法](./src/leetcode/recursive_mulitply_LCCI.py)
 * [面试题 08.07. 无重复字符串的排列组合](./src/leetcode/permutation_I_LCCI.py)
+* [面试题 08.09. 括号](./src/leetcode/bracket_LCCI.py)
+* [面试题 08.11. 硬币](./src/leetcode/coin_LCCI.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
