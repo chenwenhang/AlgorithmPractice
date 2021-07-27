@@ -51,6 +51,12 @@ A project to record algorithm practice.
 * [面试题 04.10. 检查子树](./src/leetcode/check_subTree_LCCI.py)
 * [面试题 04.12. 求和路径](./src/leetcode/paths_with_sum_LCCI.py)
 * [面试题 05.08. 绘制直线](./src/leetcode/draw_line_LCCI.py)
+* [面试题 08.02. 迷路的机器人](./src/leetcode/robot_in_a_grid_LCCI.py)
+* [面试题 08.04. 幂集](./src/leetcode/power_set_LCCI.py)
+* [面试题 08.05. 递归乘法](./src/leetcode/recursive_mulitply_LCCI.py)
+* [面试题 08.07. 无重复字符串的排列组合](./src/leetcode/permutation_I_LCCI.py)
+* [面试题 08.09. 括号](./src/leetcode/bracket_LCCI.py)
+* [面试题 08.11. 硬币](./src/leetcode/coin_LCCI.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
