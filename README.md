@@ -50,6 +50,7 @@ A project to record algorithm practice.
 * [面试题 04.08. 首个共同祖先](./src/leetcode/first_common_ancestor_LCCI.py)
 * [面试题 04.10. 检查子树](./src/leetcode/check_subTree_LCCI.py)
 * [面试题 04.12. 求和路径](./src/leetcode/paths_with_sum_LCCI.py)
+* [面试题 05.08. 绘制直线](./src/leetcode/draw_line_LCCI.py)
 
 <span id="GoogleKickStart"></span>
 ## Google Kick Start
@@ -336,6 +337,11 @@ A project to record algorithm practice.
 * [一刀999](./src/company/Sword999.java)
 * [最多投票](./src/company/MostVote.java)
 * [大数相加](./src/company/BigIntegerAdd.java)
+* [大数相加](./src/company/BigIntegerAdd.java)
+* [区间覆盖](./src/company/pdd1.py)
+* [多多鸡和多多鸭](./src/company/pdd2.py)
+* [两数乘积最大](./src/company/pdd4.py)
+* [性价比最高的雨棚](./src/company/alibaba1.py)
 
 <span id="Book"></span>
 ## Book
