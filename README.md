@@ -348,6 +348,8 @@ A project to record algorithm practice.
 * [多多鸡和多多鸭](./src/company/pdd2.py)
 * [两数乘积最大](./src/company/pdd4.py)
 * [性价比最高的雨棚](./src/company/alibaba1.py)
+* [挑选舞蹈演员](./src/company/pick_dancer.py)
+* [生存游戏](./src/company/life_game.py)
 
 <span id="Book"></span>
 ## Book
