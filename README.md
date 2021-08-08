@@ -349,7 +349,9 @@ A project to record algorithm practice.
 * [两数乘积最大](./src/company/pdd4.py)
 * [性价比最高的雨棚](./src/company/alibaba1.py)
 * [挑选舞蹈演员](./src/company/pick_dancer.py)
-* [生存游戏](./src/company/life_game.py)
+* [寻找数字](./src/company/find_num.py)
+* [交换子树](./src/company/sub_tree_trans.py)
+* [奇怪的键盘](./src/company/strange_keyboard.py)
 
 <span id="Book"></span>
 ## Book
