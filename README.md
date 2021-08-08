@@ -27,6 +27,7 @@ A project to record algorithm practice.
 * [字符串处理笔记](./src/notes/StringAndStringBuilder.md)
 
 <span id="LeetcodeRewrite"></span>
+## LeetCode
 * [2. 两数相加](./src/leetcode/add_two_numbers.py)
 * [3. 无重复字符的最长子串](./src/leetcode/longest_substring_without_repeating_characters.py)
 * [5. 最长回文子串](./src/leetcode/longest_palindromic_substring.py)
