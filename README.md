@@ -71,7 +71,7 @@ A project to record algorithm practice.
 
 <span id="SpecialAlgorithm"></span>
 ## Special algorithm
-* [A*算法](./src/special/planpath.py)
+* [A\*算法](./src/special/planpath.py)
 
 <span id="StackAndQueue"></span>
 ## Stack and Queue
@@ -84,6 +84,7 @@ A project to record algorithm practice.
 * [最小栈](./src/stack_and_queue/MinStack.java)
 * [Snakes and Ladders](src/stack_and_queue/snakes_and_ladders.py)
 * [公交路线](src/stack_and_queue/bus_routes.py)
+* [发文章最多的十个用户](src/stack_and_queue/top_ten_user.py)
 
 <span id="DivideAndConquer"></span>
 ## Divide and Conquer
