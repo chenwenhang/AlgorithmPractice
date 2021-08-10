@@ -27,6 +27,7 @@ A project to record algorithm practice.
 * [字符串处理笔记](./src/notes/StringAndStringBuilder.md)
 
 <span id="LeetcodeRewrite"></span>
+## LeetCode
 * [2. 两数相加](./src/leetcode/add_two_numbers.py)
 * [3. 无重复字符的最长子串](./src/leetcode/longest_substring_without_repeating_characters.py)
 * [5. 最长回文子串](./src/leetcode/longest_palindromic_substring.py)
@@ -50,6 +51,7 @@ A project to record algorithm practice.
 * [面试题 04.08. 首个共同祖先](./src/leetcode/first_common_ancestor_LCCI.py)
 * [面试题 04.10. 检查子树](./src/leetcode/check_subTree_LCCI.py)
 * [面试题 04.12. 求和路径](./src/leetcode/paths_with_sum_LCCI.py)
+* [面试题 05.08. 绘制直线](./src/leetcode/draw_line_LCCI.py)
 * [面试题 08.02. 迷路的机器人](./src/leetcode/robot_in_a_grid_LCCI.py)
 * [面试题 08.04. 幂集](./src/leetcode/power_set_LCCI.py)
 * [面试题 08.05. 递归乘法](./src/leetcode/recursive_mulitply_LCCI.py)
@@ -343,6 +345,15 @@ A project to record algorithm practice.
 * [一刀999](./src/company/Sword999.java)
 * [最多投票](./src/company/MostVote.java)
 * [大数相加](./src/company/BigIntegerAdd.java)
+* [大数相加](./src/company/BigIntegerAdd.java)
+* [区间覆盖](./src/company/pdd1.py)
+* [多多鸡和多多鸭](./src/company/pdd2.py)
+* [两数乘积最大](./src/company/pdd4.py)
+* [性价比最高的雨棚](./src/company/alibaba1.py)
+* [挑选舞蹈演员](./src/company/pick_dancer.py)
+* [寻找数字](./src/company/find_num.py)
+* [交换子树](./src/company/sub_tree_trans.py)
+* [奇怪的键盘](./src/company/strange_keyboard.py)
 
 <span id="Book"></span>
 ## Book
