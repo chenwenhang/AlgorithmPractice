@@ -354,6 +354,8 @@ A project to record algorithm practice.
 * [寻找数字](./src/company/find_num.py)
 * [交换子树](./src/company/sub_tree_trans.py)
 * [奇怪的键盘](./src/company/strange_keyboard.py)
+* [纸张问题](./src/company/paper_question.py)
+* [计算第K个位置](./src/company/caculate_k_pos.py)
 
 <span id="Book"></span>
 ## Book
