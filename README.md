@@ -356,6 +356,7 @@ A project to record algorithm practice.
 * [奇怪的键盘](./src/company/strange_keyboard.py)
 * [纸张问题](./src/company/paper_question.py)
 * [计算第K个位置](./src/company/caculate_k_pos.py)
+* [大哥数数](./src/company/brother_count_number.py)
 
 <span id="Book"></span>
 ## Book
