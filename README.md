@@ -360,6 +360,7 @@ A project to record algorithm practice.
 * [大哥数数](./src/company/brother_count_number.py)
 * [甘特图研发](src/company/gantetu.py)
 * [分割段式字符串](src/company/segment_palindrome.py)
+* [完美数](src/company/perfect_num.py)
 
 <span id="Book"></span>
 ## Book
