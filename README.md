@@ -361,6 +361,8 @@ A project to record algorithm practice.
 * [甘特图研发](src/company/gantetu.py)
 * [分割段式字符串](src/company/segment_palindrome.py)
 * [完美数](src/company/perfect_num.py)
+* [键盘输入](src/company/keyboard_input.py)
+* [计算日期](src/company/cal_date.py)
 * [最佳节点](src/company/best_node.py)
 * [最少编译时间](src/company/min_compile_time.py)
 
