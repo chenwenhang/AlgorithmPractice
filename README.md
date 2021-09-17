@@ -365,6 +365,8 @@ A project to record algorithm practice.
 * [计算日期](src/company/cal_date.py)
 * [最佳节点](src/company/best_node.py)
 * [最少编译时间](src/company/min_compile_time.py)
+* [优雅字符串](src/company/gentle_str.py)
+* [递增序列](src/company/increase_series.py)
 
 <span id="Book"></span>
 ## Book
