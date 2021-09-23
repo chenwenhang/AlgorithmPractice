@@ -367,6 +367,9 @@ A project to record algorithm practice.
 * [最少编译时间](src/company/min_compile_time.py)
 * [优雅字符串](src/company/gentle_str.py)
 * [递增序列](src/company/increase_series.py)
+* [微软笔试一](src/company/ms1.py)
+* [微软笔试二](src/company/ms2.py)
+* [微软笔试三](src/company/ms3.py)
 
 <span id="Book"></span>
 ## Book
