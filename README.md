@@ -371,6 +371,8 @@ A project to record algorithm practice.
 * [微软笔试二](src/company/ms2.py)
 * [微软笔试三](src/company/ms3.py)
 * [不重复的字符串](src/company/unique_verification_code.py)
+* [紧急快递](src/company/urgent_package.py)
+* [链表聚集交换](src/company/linkedlist_swap.py)
 
 <span id="Book"></span>
 ## Book
